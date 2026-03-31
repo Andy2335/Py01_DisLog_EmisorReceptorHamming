@@ -58,7 +58,7 @@ Info:   at iteration #1: temp = 0.000000, timing cost = 0, wirelen = 149
 Info:   at iteration #5: temp = 0.000000, timing cost = 0, wirelen = 131
 Info:   at iteration #10: temp = 0.000000, timing cost = 0, wirelen = 127
 Info:   at iteration #10: temp = 0.000000, timing cost = 0, wirelen = 127 
-Info: SA placement time 0.00s
+Info: SA placement time 0.01s
 
 Info: Max delay <async> -> <async>: 14.63 ns
 

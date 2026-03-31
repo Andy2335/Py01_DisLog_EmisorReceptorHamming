@@ -7,26 +7,24 @@ module top (
     output logic [6:0] segments     // Segments: SA, SB, SC, SD, SE, SF, SG (LSB a MSB)
 );
 
+
+// Definicion de bits de entrada y sus negados para facilitar la expresion de las funciones logicas de cada segmento
+logic AIN, BIN, CIN, DIN;
+logic AIN_N, BIN_N, CIN_N, DIN_N;
+logic SA, SB, SC, SD, SE, SF, SG;
+
 /*Asignacion de los bits de entrada */
 assign AIN = sw[3];
 assign BIN = sw[2];
 assign CIN = sw[1];
 assign DIN = sw[0];
 
-/*Asignacion de los bits de salida */
-assign SA = segments[0];
-assign SB = segments[1];
-assign SC = segments[2];
-assign SD = segments[3];
-assign SE = segments[4];
-assign SF = segments[5];
-assign SG = segments[6];
-
 /*Asignacion de operadores logicos reutilizados - NOT*/
 assign AIN_N = ~AIN;
 assign BIN_N = ~BIN;
 assign CIN_N = ~CIN;
 assign DIN_N = ~DIN;
+
 
 /*Expresiones logicas para cada segmento*/
 
@@ -63,5 +61,14 @@ assign SF = (AIN & (CIN | BIN_N)) |
 assign SG = (AIN & (DIN | BIN_N)) | 
             (CIN & (BIN_N | DIN_N)) | 
             (AIN_N & BIN & CIN_N);
+
+/*Asignacion de los bits de salida */
+assign segments[0] = SA;
+assign segments[1] = SB;
+assign segments[2] = SC;
+assign segments[3] = SD;
+assign segments[4] = SE;
+assign segments[5] = SF;
+assign segments[6] = SG;
 
 endmodule
