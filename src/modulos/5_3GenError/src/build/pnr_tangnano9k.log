@@ -1,0 +1,307 @@
+Info: Series:GW1N-9C Device:GW1NR-9C Package:QFN88P Speed:C6/I5
+Info: Cell sw[0] not found
+Info: Cell sw[0] not found
+Info: Cell sw[1] not found
+Info: Cell sw[1] not found
+Info: Cell sw[2] not found
+Info: Cell sw[2] not found
+Info: Cell Bit7 not found
+Info: Cell Bit7 not found
+Info: Cell Bit6 not found
+Info: Cell Bit6 not found
+Info: Cell Bit5 not found
+Info: Cell Bit5 not found
+Info: Cell Bit4 not found
+Info: Cell Bit4 not found
+Info: Cell Bit3 not found
+Info: Cell Bit3 not found
+Info: Cell Bit2 not found
+Info: Cell Bit2 not found
+Info: Cell Bit1 not found
+Info: Cell Bit1 not found
+Info: Cell clk not found
+Info: Cell clk not found
+
+Info: Packing constants..
+Info: Packing Shadow RAM..
+Info: Packing GSR..
+Info: Packing IOs..
+Info: Packing diff IOs..
+Info: Packing IO logic..
+Info: Packing wide LUTs..
+Info: Packing LUT5s..
+Info: Packing LUT6s..
+Info: Packing LUT7s..
+Info: Packing LUT8s..
+Info: Packing ALUs..
+Info: Packing LUT-FFs..
+Info: Packing non-LUT FFs..
+Info: Packing PLLs..
+Info: Checksum: 0x3903f0a7
+
+Info: Annotating ports with timing budgets for target frequency 27.00 MHz
+Info: Checksum: 0x3903f0a7
+
+Info: Device utilisation:
+Info: 	                 VCC:     1/    1   100%
+Info: 	               SLICE:   176/ 8640     2%
+Info: 	                 IOB:    17/  274     6%
+Info: 	                ODDR:     0/  274     0%
+Info: 	           MUX2_LUT5:    59/ 4320     1%
+Info: 	           MUX2_LUT6:    28/ 2160     1%
+Info: 	           MUX2_LUT7:    12/ 1080     1%
+Info: 	           MUX2_LUT8:     5/ 1056     0%
+Info: 	                 GND:     1/    1   100%
+Info: 	                RAMW:     0/  270     0%
+Info: 	                 GSR:     1/    1   100%
+Info: 	                 OSC:     0/    1     0%
+Info: 	                rPLL:     0/    2     0%
+
+Info: Placed 0 cells based on constraints.
+Info: Creating initial analytic placement for 37 cells, random placement wirelen = 2831.
+Info:     at initial placer iter 0, wirelen = 646
+Info:     at initial placer iter 1, wirelen = 507
+Info:     at initial placer iter 2, wirelen = 469
+Info:     at initial placer iter 3, wirelen = 452
+Info: Running main analytical placer, max placement attempts per cell = 11250.
+Info:     at iteration #1, type SLICE: wirelen solved = 460, spread = 769, legal = 769; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT5: wirelen solved = 763, spread = 789, legal = 789; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT6: wirelen solved = 775, spread = 819, legal = 814; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT8: wirelen solved = 812, spread = 813, legal = 831; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT7: wirelen solved = 823, spread = 823, legal = 834; time = 0.01s
+Info:     at iteration #1, type VCC: wirelen solved = 834, spread = 834, legal = 834; time = 0.00s
+Info:     at iteration #1, type GND: wirelen solved = 834, spread = 834, legal = 834; time = 0.00s
+Info:     at iteration #1, type GSR: wirelen solved = 834, spread = 834, legal = 834; time = 0.00s
+Info:     at iteration #1, type ALL: wirelen solved = 453, spread = 860, legal = 863; time = 0.00s
+Info:     at iteration #2, type SLICE: wirelen solved = 628, spread = 798, legal = 828; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT5: wirelen solved = 814, spread = 814, legal = 822; time = 0.01s
+Info:     at iteration #2, type MUX2_LUT6: wirelen solved = 789, spread = 793, legal = 793; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT8: wirelen solved = 795, spread = 795, legal = 792; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT7: wirelen solved = 780, spread = 780, legal = 791; time = 0.00s
+Info:     at iteration #2, type VCC: wirelen solved = 791, spread = 791, legal = 791; time = 0.00s
+Info:     at iteration #2, type GND: wirelen solved = 791, spread = 791, legal = 791; time = 0.00s
+Info:     at iteration #2, type GSR: wirelen solved = 791, spread = 791, legal = 791; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 475, spread = 855, legal = 852; time = 0.01s
+Info:     at iteration #3, type SLICE: wirelen solved = 642, spread = 803, legal = 797; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT5: wirelen solved = 775, spread = 775, legal = 782; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT6: wirelen solved = 724, spread = 728, legal = 724; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT8: wirelen solved = 725, spread = 725, legal = 731; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT7: wirelen solved = 726, spread = 726, legal = 727; time = 0.00s
+Info:     at iteration #3, type VCC: wirelen solved = 727, spread = 727, legal = 727; time = 0.00s
+Info:     at iteration #3, type GND: wirelen solved = 727, spread = 727, legal = 727; time = 0.01s
+Info:     at iteration #3, type GSR: wirelen solved = 727, spread = 727, legal = 727; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 483, spread = 806, legal = 797; time = 0.00s
+Info:     at iteration #4, type SLICE: wirelen solved = 576, spread = 690, legal = 716; time = 0.00s
+Info:     at iteration #4, type MUX2_LUT5: wirelen solved = 692, spread = 692, legal = 691; time = 0.00s
+Info:     at iteration #4, type MUX2_LUT6: wirelen solved = 669, spread = 669, legal = 670; time = 0.00s
+Info:     at iteration #4, type MUX2_LUT8: wirelen solved = 660, spread = 660, legal = 663; time = 0.00s
+Info:     at iteration #4, type MUX2_LUT7: wirelen solved = 655, spread = 655, legal = 652; time = 0.00s
+Info:     at iteration #4, type VCC: wirelen solved = 652, spread = 652, legal = 652; time = 0.00s
+Info:     at iteration #4, type GND: wirelen solved = 652, spread = 652, legal = 652; time = 0.00s
+Info:     at iteration #4, type GSR: wirelen solved = 652, spread = 652, legal = 652; time = 0.00s
+Info:     at iteration #4, type ALL: wirelen solved = 484, spread = 834, legal = 830; time = 0.01s
+Info:     at iteration #5, type SLICE: wirelen solved = 635, spread = 767, legal = 789; time = 0.00s
+Info:     at iteration #5, type MUX2_LUT5: wirelen solved = 768, spread = 775, legal = 775; time = 0.00s
+Info:     at iteration #5, type MUX2_LUT6: wirelen solved = 700, spread = 727, legal = 734; time = 0.00s
+Info:     at iteration #5, type MUX2_LUT8: wirelen solved = 728, spread = 728, legal = 735; time = 0.00s
+Info:     at iteration #5, type MUX2_LUT7: wirelen solved = 736, spread = 736, legal = 736; time = 0.00s
+Info:     at iteration #5, type VCC: wirelen solved = 736, spread = 736, legal = 736; time = 0.01s
+Info:     at iteration #5, type GND: wirelen solved = 736, spread = 736, legal = 736; time = 0.00s
+Info:     at iteration #5, type GSR: wirelen solved = 736, spread = 736, legal = 736; time = 0.00s
+Info:     at iteration #5, type ALL: wirelen solved = 482, spread = 822, legal = 848; time = 0.00s
+Info:     at iteration #6, type SLICE: wirelen solved = 621, spread = 813, legal = 821; time = 0.00s
+Info:     at iteration #6, type MUX2_LUT5: wirelen solved = 806, spread = 806, legal = 806; time = 0.00s
+Info:     at iteration #6, type MUX2_LUT6: wirelen solved = 728, spread = 776, legal = 783; time = 0.01s
+Info:     at iteration #6, type MUX2_LUT8: wirelen solved = 775, spread = 775, legal = 780; time = 0.00s
+Info:     at iteration #6, type MUX2_LUT7: wirelen solved = 773, spread = 773, legal = 774; time = 0.00s
+Info:     at iteration #6, type VCC: wirelen solved = 774, spread = 774, legal = 774; time = 0.00s
+Info:     at iteration #6, type GND: wirelen solved = 774, spread = 774, legal = 774; time = 0.00s
+Info:     at iteration #6, type GSR: wirelen solved = 774, spread = 774, legal = 774; time = 0.00s
+Info:     at iteration #6, type ALL: wirelen solved = 495, spread = 843, legal = 854; time = 0.01s
+Info:     at iteration #7, type SLICE: wirelen solved = 643, spread = 743, legal = 778; time = 0.00s
+Info:     at iteration #7, type MUX2_LUT5: wirelen solved = 764, spread = 764, legal = 766; time = 0.00s
+Info:     at iteration #7, type MUX2_LUT6: wirelen solved = 699, spread = 705, legal = 708; time = 0.00s
+Info:     at iteration #7, type MUX2_LUT8: wirelen solved = 704, spread = 704, legal = 714; time = 0.00s
+Info:     at iteration #7, type MUX2_LUT7: wirelen solved = 692, spread = 692, legal = 688; time = 0.00s
+Info:     at iteration #7, type VCC: wirelen solved = 688, spread = 688, legal = 688; time = 0.01s
+Info:     at iteration #7, type GND: wirelen solved = 688, spread = 688, legal = 688; time = 0.00s
+Info:     at iteration #7, type GSR: wirelen solved = 688, spread = 688, legal = 688; time = 0.00s
+Info:     at iteration #7, type ALL: wirelen solved = 494, spread = 860, legal = 863; time = 0.00s
+Info:     at iteration #8, type SLICE: wirelen solved = 668, spread = 744, legal = 773; time = 0.00s
+Info:     at iteration #8, type MUX2_LUT5: wirelen solved = 762, spread = 762, legal = 762; time = 0.01s
+Info:     at iteration #8, type MUX2_LUT6: wirelen solved = 674, spread = 681, legal = 681; time = 0.00s
+Info:     at iteration #8, type MUX2_LUT8: wirelen solved = 673, spread = 673, legal = 680; time = 0.00s
+Info:     at iteration #8, type MUX2_LUT7: wirelen solved = 655, spread = 655, legal = 666; time = 0.00s
+Info:     at iteration #8, type VCC: wirelen solved = 666, spread = 666, legal = 666; time = 0.00s
+Info:     at iteration #8, type GND: wirelen solved = 666, spread = 666, legal = 666; time = 0.00s
+Info:     at iteration #8, type GSR: wirelen solved = 666, spread = 666, legal = 666; time = 0.00s
+Info:     at iteration #8, type ALL: wirelen solved = 486, spread = 716, legal = 723; time = 0.01s
+Info:     at iteration #9, type SLICE: wirelen solved = 617, spread = 832, legal = 876; time = 0.00s
+Info:     at iteration #9, type MUX2_LUT5: wirelen solved = 869, spread = 872, legal = 873; time = 0.00s
+Info:     at iteration #9, type MUX2_LUT6: wirelen solved = 799, spread = 820, legal = 820; time = 0.00s
+Info:     at iteration #9, type MUX2_LUT8: wirelen solved = 816, spread = 816, legal = 813; time = 0.00s
+Info:     at iteration #9, type MUX2_LUT7: wirelen solved = 809, spread = 809, legal = 809; time = 0.00s
+Info:     at iteration #9, type VCC: wirelen solved = 809, spread = 809, legal = 809; time = 0.01s
+Info:     at iteration #9, type GND: wirelen solved = 809, spread = 809, legal = 809; time = 0.00s
+Info:     at iteration #9, type GSR: wirelen solved = 809, spread = 809, legal = 809; time = 0.00s
+Info:     at iteration #9, type ALL: wirelen solved = 499, spread = 780, legal = 783; time = 0.00s
+Info:     at iteration #10, type SLICE: wirelen solved = 592, spread = 654, legal = 662; time = 0.00s
+Info:     at iteration #10, type MUX2_LUT5: wirelen solved = 661, spread = 661, legal = 662; time = 0.01s
+Info:     at iteration #10, type MUX2_LUT6: wirelen solved = 669, spread = 669, legal = 669; time = 0.00s
+Info:     at iteration #10, type MUX2_LUT8: wirelen solved = 663, spread = 663, legal = 670; time = 0.00s
+Info:     at iteration #10, type MUX2_LUT7: wirelen solved = 649, spread = 664, legal = 670; time = 0.00s
+Info:     at iteration #10, type VCC: wirelen solved = 670, spread = 670, legal = 670; time = 0.00s
+Info:     at iteration #10, type GND: wirelen solved = 670, spread = 670, legal = 670; time = 0.00s
+Info:     at iteration #10, type GSR: wirelen solved = 670, spread = 670, legal = 670; time = 0.00s
+Info:     at iteration #10, type ALL: wirelen solved = 500, spread = 779, legal = 784; time = 0.01s
+Info:     at iteration #11, type SLICE: wirelen solved = 597, spread = 757, legal = 751; time = 0.00s
+Info:     at iteration #11, type MUX2_LUT5: wirelen solved = 748, spread = 756, legal = 756; time = 0.00s
+Info:     at iteration #11, type MUX2_LUT6: wirelen solved = 738, spread = 744, legal = 744; time = 0.00s
+Info:     at iteration #11, type MUX2_LUT8: wirelen solved = 746, spread = 748, legal = 747; time = 0.00s
+Info:     at iteration #11, type MUX2_LUT7: wirelen solved = 728, spread = 728, legal = 739; time = 0.01s
+Info:     at iteration #11, type VCC: wirelen solved = 739, spread = 739, legal = 739; time = 0.00s
+Info:     at iteration #11, type GND: wirelen solved = 739, spread = 739, legal = 739; time = 0.00s
+Info:     at iteration #11, type GSR: wirelen solved = 739, spread = 739, legal = 739; time = 0.00s
+Info:     at iteration #11, type ALL: wirelen solved = 523, spread = 813, legal = 822; time = 0.00s
+Info:     at iteration #12, type SLICE: wirelen solved = 642, spread = 741, legal = 743; time = 0.00s
+Info:     at iteration #12, type MUX2_LUT5: wirelen solved = 732, spread = 729, legal = 733; time = 0.01s
+Info:     at iteration #12, type MUX2_LUT6: wirelen solved = 657, spread = 667, legal = 672; time = 0.00s
+Info:     at iteration #12, type MUX2_LUT8: wirelen solved = 666, spread = 666, legal = 673; time = 0.00s
+Info:     at iteration #12, type MUX2_LUT7: wirelen solved = 672, spread = 672, legal = 672; time = 0.00s
+Info:     at iteration #12, type VCC: wirelen solved = 672, spread = 672, legal = 672; time = 0.00s
+Info:     at iteration #12, type GND: wirelen solved = 672, spread = 672, legal = 672; time = 0.00s
+Info:     at iteration #12, type GSR: wirelen solved = 672, spread = 672, legal = 672; time = 0.00s
+Info:     at iteration #12, type ALL: wirelen solved = 508, spread = 796, legal = 788; time = 0.01s
+Info:     at iteration #13, type SLICE: wirelen solved = 577, spread = 824, legal = 881; time = 0.00s
+Info:     at iteration #13, type MUX2_LUT5: wirelen solved = 876, spread = 876, legal = 875; time = 0.00s
+Info:     at iteration #13, type MUX2_LUT6: wirelen solved = 845, spread = 845, legal = 849; time = 0.00s
+Info:     at iteration #13, type MUX2_LUT8: wirelen solved = 854, spread = 854, legal = 848; time = 0.00s
+Info:     at iteration #13, type MUX2_LUT7: wirelen solved = 854, spread = 854, legal = 846; time = 0.01s
+Info:     at iteration #13, type VCC: wirelen solved = 846, spread = 846, legal = 846; time = 0.00s
+Info:     at iteration #13, type GND: wirelen solved = 846, spread = 846, legal = 846; time = 0.00s
+Info:     at iteration #13, type GSR: wirelen solved = 846, spread = 846, legal = 846; time = 0.00s
+Info:     at iteration #13, type ALL: wirelen solved = 542, spread = 858, legal = 847; time = 0.00s
+Info: HeAP Placer Time: 0.22s
+Info:   of which solving equations: 0.15s
+Info:   of which spreading cells: 0.02s
+Info:   of which strict legalisation: 0.01s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 0, wirelen = 723
+Info:   at iteration #5: temp = 0.000000, timing cost = 0, wirelen = 340
+Info:   at iteration #10: temp = 0.000000, timing cost = 0, wirelen = 325
+Info:   at iteration #15: temp = 0.000000, timing cost = 0, wirelen = 323
+Info:   at iteration #18: temp = 0.000000, timing cost = 0, wirelen = 322 
+Info: SA placement time 0.21s
+
+Info: Max delay <async> -> <async>: 15.23 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 21806,  22528) |* 
+Info: [ 22528,  23250) |*** 
+Info: [ 23250,  23972) |** 
+Info: [ 23972,  24694) |* 
+Info: [ 24694,  25416) | 
+Info: [ 25416,  26138) | 
+Info: [ 26138,  26860) | 
+Info: [ 26860,  27582) |****** 
+Info: [ 27582,  28304) |**** 
+Info: [ 28304,  29026) |******** 
+Info: [ 29026,  29748) |** 
+Info: [ 29748,  30470) |****** 
+Info: [ 30470,  31192) |* 
+Info: [ 31192,  31914) |** 
+Info: [ 31914,  32636) |****** 
+Info: [ 32636,  33358) |**** 
+Info: [ 33358,  34080) |* 
+Info: [ 34080,  34802) |******* 
+Info: [ 34802,  35524) |******* 
+Info: [ 35524,  36246) |**** 
+Info: Checksum: 0x782c8764
+Info: Find global nets...
+Info: Routing globals...
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 663 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:        689 |       19        670 |   19   670 |         0|       2.05       2.05|
+Info: Routing complete.
+Info: Router1 time 2.05s
+Info: Checksum: 0x6255e00b
+
+Info: Critical path report for cross-domain path '<async>' -> '<async>':
+Info: curr total
+Info:  0.0  0.0  Source BitError_IBUF_I_2_O_IBUF_O$iob.O
+Info:  1.4  1.4    Net BitError_IBUF_I_2_O[2] budget 37.037037 ns (28,0) -> (25,1)
+Info:                Sink BitError_IBUF_I_O_MUX2_LUT5_O_I1_LUT1_F_LC.A
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0  2.4  Source BitError_IBUF_I_O_MUX2_LUT5_O_I1_LUT1_F_LC.F
+Info:  0.3  2.7    Net BitError_IBUF_I_O_MUX2_LUT5_O_I1 budget 11.920679 ns (25,1) -> (25,1)
+Info:                Sink BitError_IBUF_I_O_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2  2.9  Source BitError_IBUF_I_O_MUX2_LUT5_O_LC.OF
+Info:  1.9  4.8    Net BitError_IBUF_I_O[2] budget 11.920678 ns (25,1) -> (30,2)
+Info:                Sink BitError_IBUF_I_O_LUT4_I0_LC.C
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  0.8  5.6  Source BitError_IBUF_I_O_LUT4_I0_LC.F
+Info:  2.3  8.0    Net BitError_IBUF_I_O_LUT4_F_1_I0[0] budget 8.710259 ns (30,2) -> (35,1)
+Info:                Sink transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.A
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0  9.0  Source transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3  9.3    Net transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 4.007005 ns (35,1) -> (35,1)
+Info:                Sink transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2  9.5  Source transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3  9.8    Net transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 4.007005 ns (35,1) -> (35,1)
+Info:                Sink transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 10.2  Source transmision_OBUF_O_3_I_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 10.5    Net transmision_OBUF_O_3_I_MUX2_LUT7_O_I1 budget 4.007005 ns (35,1) -> (35,1)
+Info:                Sink transmision_OBUF_O_3_I_MUX2_LUT7_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5 11.0  Source transmision_OBUF_O_3_I_MUX2_LUT7_O_LC.OF
+Info:  0.8 11.8    Net transmision_OBUF_O_3_I budget 4.007005 ns (35,1) -> (35,0)
+Info:                Sink transmision_OBUF_O_3$iob.I
+Info: 4.1 ns logic, 7.7 ns routing
+
+Info: Max delay <async> -> <async>: 11.85 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ 25191,  25763) |**** 
+Info: [ 25763,  26335) |* 
+Info: [ 26335,  26907) |* 
+Info: [ 26907,  27479) |* 
+Info: [ 27479,  28051) | 
+Info: [ 28051,  28623) | 
+Info: [ 28623,  29195) |* 
+Info: [ 29195,  29767) |*** 
+Info: [ 29767,  30339) |****** 
+Info: [ 30339,  30911) |******* 
+Info: [ 30911,  31483) |*** 
+Info: [ 31483,  32055) |***** 
+Info: [ 32055,  32627) |*** 
+Info: [ 32627,  33199) |***** 
+Info: [ 33199,  33771) |* 
+Info: [ 33771,  34343) |***** 
+Info: [ 34343,  34915) |* 
+Info: [ 34915,  35487) |******* 
+Info: [ 35487,  36059) |*** 
+Info: [ 36059,  36631) |******** 
+
+Info: Program finished normally.

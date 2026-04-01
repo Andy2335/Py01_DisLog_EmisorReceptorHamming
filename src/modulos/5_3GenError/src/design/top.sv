@@ -14,7 +14,7 @@ always @(*) begin
 
     if (BitError < 7)
         // Inversión de un bit especifico en transmision según el valor de BitError
-        transmision[BitError] = ~WordHamming[BitError];
+        transmision[BitError-1] = ~WordHamming[BitError-1];
     else
         // Si BitError es 7 o mayor, no se introduce ningún error (transmision ya es igual a WordHamming)
         transmision = WordHamming;

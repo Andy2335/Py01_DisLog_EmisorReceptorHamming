@@ -39,10 +39,10 @@ module top_tb;
         // Mostrar encabezado
         $display("Tiempo\tBitError\tWordHamming\ttransmision");
         $display("----------------------------------------------------");
-        $monitor("%0t\t%b\t\t%b\t%b", $time, BitError, WordHamming, transmision);
+        $monitor("%0t\t%b\t\t%b\t\t%b", $time, BitError, WordHamming, transmision);
 
         // Probar cada posible valor de BitError
-        BitError = 3'b000; #10;   // Invierte bit 0
+        BitError = 3'b000; #10;   // No introduce error
         BitError = 3'b001; #10;   // Invierte bit 1
         BitError = 3'b010; #10;   // Invierte bit 2
         BitError = 3'b011; #10;   // Invierte bit 3
