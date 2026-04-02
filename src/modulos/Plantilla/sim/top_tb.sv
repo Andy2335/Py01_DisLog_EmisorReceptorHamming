@@ -5,8 +5,8 @@ module top_tb;
     Observe que en esta seccion los logic no se definen como input o output, son propios del modulo
     como si fueran un nodo, por eso se conectan en el DUT. 
     */
-    logic [3:0] sw;                         
-    logic Sa, Sb, Sc, Sd, Se, Sf, Sg;
+    logic [3:0] sw;                      
+    logic [6:0] segments;
     logic [6:0] out;
 
     // DUT (Device Under Test)
@@ -20,7 +20,7 @@ module top_tb;
     */
     top dut (
         .sw(sw),
-        .segments({Sg,Sf,Se,Sd,Sc,Sb,Sa})
+        .segments({SA, SB, SC, SD, SE, SF, SG})
     );
 
     // Función que devuelve patrón esperado. Se utilizara para comparar 'segments' contra 'expected'
@@ -36,8 +36,15 @@ module top_tb;
             4'd7: expected = 7'b1110000;
             4'd8: expected = 7'b1111111;
             4'd9: expected = 7'b1110011;
-            // 10–15 → solo G
-            default: expected = 7'b0000001;
+            4'd10: expected = 7'b1110111; // A
+            4'd11: expected = 7'b0011111; // B
+            4'd12: expected = 7'b1001110; // C
+            4'd13: expected = 7'b0111101; // D
+            4'd14: expected = 7'b1001111; // E
+            4'd15: expected = 7'b1000111; // F
+
+
+            default: expected = 7'b0000000;
         endcase
     endfunction
 
@@ -47,9 +54,9 @@ module top_tb;
         for (int i = 0; i < 16; i++) begin
             sw = i;
             #1;
-            out = {Sg,Sf,Se,Sd,Sc,Sb,Sa};       
+            out = {SG, SF, SE, SD, SC, SB, SA};       
 
-            if (out != expected(i)) begin
+            if (out !== expected(i)) begin
                 $display("ERROR at %0d -> got %b expected %b",
                          i, out, expected(i));
             end
