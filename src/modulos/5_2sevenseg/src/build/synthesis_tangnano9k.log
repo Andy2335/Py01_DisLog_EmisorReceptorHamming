@@ -27,21 +27,6 @@
 1. Executing Verilog-2005 frontend: ../design/top.sv
 Parsing SystemVerilog input from `../design/top.sv' to AST representation.
 Generating RTLIL representation for module `\top'.
-../design/top.sv:11: Warning: Identifier `\AIN' is implicitly declared.
-../design/top.sv:12: Warning: Identifier `\BIN' is implicitly declared.
-../design/top.sv:13: Warning: Identifier `\CIN' is implicitly declared.
-../design/top.sv:14: Warning: Identifier `\DIN' is implicitly declared.
-../design/top.sv:17: Warning: Identifier `\SA' is implicitly declared.
-../design/top.sv:18: Warning: Identifier `\SB' is implicitly declared.
-../design/top.sv:19: Warning: Identifier `\SC' is implicitly declared.
-../design/top.sv:20: Warning: Identifier `\SD' is implicitly declared.
-../design/top.sv:21: Warning: Identifier `\SE' is implicitly declared.
-../design/top.sv:22: Warning: Identifier `\SF' is implicitly declared.
-../design/top.sv:23: Warning: Identifier `\SG' is implicitly declared.
-../design/top.sv:26: Warning: Identifier `\AIN_N' is implicitly declared.
-../design/top.sv:27: Warning: Identifier `\BIN_N' is implicitly declared.
-../design/top.sv:28: Warning: Identifier `\CIN_N' is implicitly declared.
-../design/top.sv:29: Warning: Identifier `\DIN_N' is implicitly declared.
 Successfully finished Verilog frontend.
 
 2. Executing SYNTH_GOWIN pass.
@@ -910,7 +895,6 @@ Found and reported 0 problems.
 
 2.30. Executing JSON backend.
 
-Warnings: 15 unique messages, 15 total
-End of script. Logfile hash: 67ef4b4bb3
+End of script. Logfile hash: 3c4dabeed3
 Yosys 0.26+1 (git sha1 b1a011138, x86_64-w64-mingw32-g++ 9.2.1 -Os)
 Time spent: 1% 15x opt_expr (0 sec), 1% 14x opt_clean (0 sec), ...
