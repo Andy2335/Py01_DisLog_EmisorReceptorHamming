@@ -8762,7 +8762,7 @@
     "top": {
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "../design/top.sv:5.1-67.10"
+        "src": "../design/top.sv:5.1-74.10"
       },
       "ports": {
         "sw": {
@@ -9143,77 +9143,77 @@
           "hide_name": 0,
           "bits": [ 13 ],
           "attributes": {
-            "src": "../design/top.sv:11.8-11.11"
+            "src": "../design/top.sv:12.7-12.10"
           }
         },
         "BIN": {
           "hide_name": 0,
           "bits": [ 14 ],
           "attributes": {
-            "src": "../design/top.sv:12.8-12.11"
+            "src": "../design/top.sv:12.12-12.15"
           }
         },
         "CIN": {
           "hide_name": 0,
           "bits": [ 15 ],
           "attributes": {
-            "src": "../design/top.sv:13.8-13.11"
+            "src": "../design/top.sv:12.17-12.20"
           }
         },
         "DIN": {
           "hide_name": 0,
           "bits": [ 16 ],
           "attributes": {
-            "src": "../design/top.sv:14.8-14.11"
+            "src": "../design/top.sv:12.22-12.25"
           }
         },
         "SA": {
           "hide_name": 0,
           "bits": [ 17 ],
           "attributes": {
-            "src": "../design/top.sv:17.8-17.10"
+            "src": "../design/top.sv:14.7-14.9"
           }
         },
         "SB": {
           "hide_name": 0,
           "bits": [ 18 ],
           "attributes": {
-            "src": "../design/top.sv:18.8-18.10"
+            "src": "../design/top.sv:14.11-14.13"
           }
         },
         "SC": {
           "hide_name": 0,
           "bits": [ 19 ],
           "attributes": {
-            "src": "../design/top.sv:19.8-19.10"
+            "src": "../design/top.sv:14.15-14.17"
           }
         },
         "SD": {
           "hide_name": 0,
           "bits": [ 20 ],
           "attributes": {
-            "src": "../design/top.sv:20.8-20.10"
+            "src": "../design/top.sv:14.19-14.21"
           }
         },
         "SE": {
           "hide_name": 0,
           "bits": [ 21 ],
           "attributes": {
-            "src": "../design/top.sv:21.8-21.10"
+            "src": "../design/top.sv:14.23-14.25"
           }
         },
         "SF": {
           "hide_name": 0,
           "bits": [ 22 ],
           "attributes": {
-            "src": "../design/top.sv:22.8-22.10"
+            "src": "../design/top.sv:14.27-14.29"
           }
         },
         "SG": {
           "hide_name": 0,
           "bits": [ 23 ],
           "attributes": {
-            "src": "../design/top.sv:23.8-23.10"
+            "src": "../design/top.sv:14.31-14.33"
           }
         },
         "segments": {
