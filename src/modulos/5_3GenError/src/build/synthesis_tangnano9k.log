@@ -109,26 +109,26 @@ Removed 0 unused modules.
 2.3. Executing PROC pass (convert processes to netlists).
 
 2.3.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
-Found and cleaned up 1 empty switch in `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$250'.
+Found and cleaned up 1 empty switch in `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$252'.
 Cleaned up 1 empty switch.
 
 2.3.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$246 in module DFFNCE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$244 in module DFFNC.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$242 in module DFFNPE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$240 in module DFFNP.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$238 in module DFFNRE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$236 in module DFFNR.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$234 in module DFFNSE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$232 in module DFFNS.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$226 in module DFFCE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$224 in module DFFC.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$222 in module DFFPE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$220 in module DFFP.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$218 in module DFFRE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$216 in module DFFR.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$214 in module DFFSE.
-Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$212 in module DFFS.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$248 in module DFFNCE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$246 in module DFFNC.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$244 in module DFFNPE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$242 in module DFFNP.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$240 in module DFFNRE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$238 in module DFFNR.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$236 in module DFFNSE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$234 in module DFFNS.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$228 in module DFFCE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$226 in module DFFC.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$224 in module DFFPE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$222 in module DFFP.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$220 in module DFFRE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$218 in module DFFR.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$216 in module DFFSE.
+Marked 1 switch rules as full_case in process $proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$214 in module DFFS.
 Marked 1 switch rules as full_case in process $proc$../design/top.sv:12$4 in module top.
 Removed a total of 0 dead cases.
 
@@ -137,126 +137,126 @@ Removed 8 redundant assignments.
 Promoted 30 assignments to connections.
 
 2.3.4. Executing PROC_INIT pass (extract init attributes).
-Found init rule in `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$247'.
+Found init rule in `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$249'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$245'.
+Found init rule in `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$247'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$243'.
+Found init rule in `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$245'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$241'.
+Found init rule in `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$243'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$239'.
+Found init rule in `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$241'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$237'.
+Found init rule in `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$239'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$235'.
+Found init rule in `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$237'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$233'.
+Found init rule in `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$235'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$231'.
+Found init rule in `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$233'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$229'.
+Found init rule in `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$231'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$227'.
+Found init rule in `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$229'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$225'.
+Found init rule in `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$227'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$223'.
+Found init rule in `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$225'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$221'.
+Found init rule in `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$223'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$219'.
+Found init rule in `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$221'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$217'.
+Found init rule in `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$219'.
   Set init value: \Q = 1'0
-Found init rule in `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$215'.
+Found init rule in `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$217'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$213'.
+Found init rule in `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$215'.
   Set init value: \Q = 1'1
-Found init rule in `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$211'.
+Found init rule in `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$213'.
   Set init value: \Q = 1'0
-Found init rule in `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$209'.
+Found init rule in `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$211'.
   Set init value: \Q = 1'0
 
 2.3.5. Executing PROC_ARST pass (detect async resets in processes).
-Found async reset \CLEAR in `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$246'.
-Found async reset \CLEAR in `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$244'.
-Found async reset \PRESET in `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$242'.
-Found async reset \PRESET in `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$240'.
-Found async reset \CLEAR in `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$226'.
-Found async reset \CLEAR in `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$224'.
-Found async reset \PRESET in `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$222'.
-Found async reset \PRESET in `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$220'.
+Found async reset \CLEAR in `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$248'.
+Found async reset \CLEAR in `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$246'.
+Found async reset \PRESET in `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$244'.
+Found async reset \PRESET in `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$242'.
+Found async reset \CLEAR in `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$228'.
+Found async reset \CLEAR in `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$226'.
+Found async reset \PRESET in `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$224'.
+Found async reset \PRESET in `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$222'.
 
 2.3.6. Executing PROC_ROM pass (convert switches to ROMs).
 Converted 0 switches.
 <suppressed ~19 debug messages>
 
 2.3.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
-Creating decoders for process `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$250'.
-Creating decoders for process `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$247'.
-Creating decoders for process `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$246'.
+Creating decoders for process `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$252'.
+Creating decoders for process `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$249'.
+Creating decoders for process `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$248'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$245'.
-Creating decoders for process `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$244'.
+Creating decoders for process `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$247'.
+Creating decoders for process `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$246'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$243'.
-Creating decoders for process `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$242'.
+Creating decoders for process `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$245'.
+Creating decoders for process `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$244'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$241'.
-Creating decoders for process `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$240'.
+Creating decoders for process `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$243'.
+Creating decoders for process `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$242'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$239'.
-Creating decoders for process `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$238'.
+Creating decoders for process `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$241'.
+Creating decoders for process `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$240'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$237'.
-Creating decoders for process `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$236'.
+Creating decoders for process `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$239'.
+Creating decoders for process `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$238'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$235'.
-Creating decoders for process `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$234'.
+Creating decoders for process `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$237'.
+Creating decoders for process `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$236'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$233'.
-Creating decoders for process `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$232'.
+Creating decoders for process `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$235'.
+Creating decoders for process `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$234'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$231'.
-Creating decoders for process `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$230'.
+Creating decoders for process `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$233'.
+Creating decoders for process `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$232'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$229'.
-Creating decoders for process `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$228'.
-Creating decoders for process `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$227'.
-Creating decoders for process `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$226'.
+Creating decoders for process `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$231'.
+Creating decoders for process `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$230'.
+Creating decoders for process `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$229'.
+Creating decoders for process `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$228'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$225'.
-Creating decoders for process `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$224'.
+Creating decoders for process `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$227'.
+Creating decoders for process `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$226'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$223'.
-Creating decoders for process `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$222'.
+Creating decoders for process `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$225'.
+Creating decoders for process `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$224'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$221'.
-Creating decoders for process `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$220'.
+Creating decoders for process `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$223'.
+Creating decoders for process `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$222'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$219'.
-Creating decoders for process `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$218'.
+Creating decoders for process `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$221'.
+Creating decoders for process `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$220'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$217'.
-Creating decoders for process `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$216'.
+Creating decoders for process `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$219'.
+Creating decoders for process `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$218'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$215'.
-Creating decoders for process `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$214'.
+Creating decoders for process `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$217'.
+Creating decoders for process `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$216'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$213'.
-Creating decoders for process `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$212'.
+Creating decoders for process `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$215'.
+Creating decoders for process `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$214'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$211'.
-Creating decoders for process `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$210'.
+Creating decoders for process `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$213'.
+Creating decoders for process `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$212'.
      1/1: $0\Q[0:0]
-Creating decoders for process `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$209'.
-Creating decoders for process `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$208'.
+Creating decoders for process `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$211'.
+Creating decoders for process `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$210'.
 Creating decoders for process `\top.$proc$../design/top.sv:12$4'.
      1/4: $1\transmision[6:0]
      2/4: $1$bitselwrite$data$../design/top.sv:17$2[6:0]$10
      3/4: $1$bitselwrite$mask$../design/top.sv:17$1[6:0]$9
-     4/4: $1$bitselwrite$sel$../design/top.sv:17$3[2:0]$11
+     4/4: $1$bitselwrite$sel$../design/top.sv:17$3[31:0]$11
 
 2.3.8. Executing PROC_DLATCH pass (convert process syncs to latches).
 No latch inferred for signal `\top.\transmision' from process `\top.$proc$../design/top.sv:12$4'.
@@ -265,109 +265,109 @@ No latch inferred for signal `\top.$bitselwrite$data$../design/top.sv:17$2' from
 No latch inferred for signal `\top.$bitselwrite$sel$../design/top.sv:17$3' from process `\top.$proc$../design/top.sv:12$4'.
 
 2.3.9. Executing PROC_DFF pass (convert process syncs to FFs).
-Creating register for signal `\ALU.\C' using process `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$250'.
+Creating register for signal `\ALU.\C' using process `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$252'.
   created direct connection (no actual register cell created).
-Creating register for signal `\ALU.\S' using process `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$250'.
+Creating register for signal `\ALU.\S' using process `\ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$252'.
   created direct connection (no actual register cell created).
-Creating register for signal `\DFFNCE.\Q' using process `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$246'.
-  created $adff cell `$procdff$350' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNC.\Q' using process `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$244'.
-  created $adff cell `$procdff$351' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNPE.\Q' using process `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$242'.
+Creating register for signal `\DFFNCE.\Q' using process `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$248'.
   created $adff cell `$procdff$352' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNP.\Q' using process `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$240'.
+Creating register for signal `\DFFNC.\Q' using process `\DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$246'.
   created $adff cell `$procdff$353' with negative edge clock and positive level reset.
-Creating register for signal `\DFFNRE.\Q' using process `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$238'.
-  created $dff cell `$procdff$354' with negative edge clock.
-Creating register for signal `\DFFNR.\Q' using process `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$236'.
-  created $dff cell `$procdff$355' with negative edge clock.
-Creating register for signal `\DFFNSE.\Q' using process `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$234'.
+Creating register for signal `\DFFNPE.\Q' using process `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$244'.
+  created $adff cell `$procdff$354' with negative edge clock and positive level reset.
+Creating register for signal `\DFFNP.\Q' using process `\DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$242'.
+  created $adff cell `$procdff$355' with negative edge clock and positive level reset.
+Creating register for signal `\DFFNRE.\Q' using process `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$240'.
   created $dff cell `$procdff$356' with negative edge clock.
-Creating register for signal `\DFFNS.\Q' using process `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$232'.
+Creating register for signal `\DFFNR.\Q' using process `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$238'.
   created $dff cell `$procdff$357' with negative edge clock.
-Creating register for signal `\DFFNE.\Q' using process `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$230'.
+Creating register for signal `\DFFNSE.\Q' using process `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$236'.
   created $dff cell `$procdff$358' with negative edge clock.
-Creating register for signal `\DFFN.\Q' using process `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$228'.
+Creating register for signal `\DFFNS.\Q' using process `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$234'.
   created $dff cell `$procdff$359' with negative edge clock.
-Creating register for signal `\DFFCE.\Q' using process `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$226'.
-  created $adff cell `$procdff$360' with positive edge clock and positive level reset.
-Creating register for signal `\DFFC.\Q' using process `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$224'.
-  created $adff cell `$procdff$361' with positive edge clock and positive level reset.
-Creating register for signal `\DFFPE.\Q' using process `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$222'.
+Creating register for signal `\DFFNE.\Q' using process `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$232'.
+  created $dff cell `$procdff$360' with negative edge clock.
+Creating register for signal `\DFFN.\Q' using process `\DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$230'.
+  created $dff cell `$procdff$361' with negative edge clock.
+Creating register for signal `\DFFCE.\Q' using process `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$228'.
   created $adff cell `$procdff$362' with positive edge clock and positive level reset.
-Creating register for signal `\DFFP.\Q' using process `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$220'.
+Creating register for signal `\DFFC.\Q' using process `\DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$226'.
   created $adff cell `$procdff$363' with positive edge clock and positive level reset.
-Creating register for signal `\DFFRE.\Q' using process `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$218'.
-  created $dff cell `$procdff$364' with positive edge clock.
-Creating register for signal `\DFFR.\Q' using process `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$216'.
-  created $dff cell `$procdff$365' with positive edge clock.
-Creating register for signal `\DFFSE.\Q' using process `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$214'.
+Creating register for signal `\DFFPE.\Q' using process `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$224'.
+  created $adff cell `$procdff$364' with positive edge clock and positive level reset.
+Creating register for signal `\DFFP.\Q' using process `\DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$222'.
+  created $adff cell `$procdff$365' with positive edge clock and positive level reset.
+Creating register for signal `\DFFRE.\Q' using process `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$220'.
   created $dff cell `$procdff$366' with positive edge clock.
-Creating register for signal `\DFFS.\Q' using process `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$212'.
+Creating register for signal `\DFFR.\Q' using process `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$218'.
   created $dff cell `$procdff$367' with positive edge clock.
-Creating register for signal `\DFFE.\Q' using process `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$210'.
+Creating register for signal `\DFFSE.\Q' using process `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$216'.
   created $dff cell `$procdff$368' with positive edge clock.
-Creating register for signal `\DFF.\Q' using process `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$208'.
+Creating register for signal `\DFFS.\Q' using process `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$214'.
   created $dff cell `$procdff$369' with positive edge clock.
+Creating register for signal `\DFFE.\Q' using process `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$212'.
+  created $dff cell `$procdff$370' with positive edge clock.
+Creating register for signal `\DFF.\Q' using process `\DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$210'.
+  created $dff cell `$procdff$371' with positive edge clock.
 
 2.3.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
 
 2.3.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
-Removing empty process `ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$250'.
-Removing empty process `DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$247'.
-Found and cleaned up 1 empty switch in `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$246'.
-Removing empty process `DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$246'.
-Removing empty process `DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$245'.
-Removing empty process `DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$244'.
-Removing empty process `DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$243'.
-Found and cleaned up 1 empty switch in `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$242'.
-Removing empty process `DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$242'.
-Removing empty process `DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$241'.
-Removing empty process `DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$240'.
-Removing empty process `DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$239'.
-Found and cleaned up 2 empty switches in `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$238'.
-Removing empty process `DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$238'.
-Removing empty process `DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$237'.
-Found and cleaned up 1 empty switch in `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$236'.
-Removing empty process `DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$236'.
-Removing empty process `DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$235'.
-Found and cleaned up 2 empty switches in `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$234'.
-Removing empty process `DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$234'.
-Removing empty process `DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$233'.
-Found and cleaned up 1 empty switch in `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$232'.
-Removing empty process `DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$232'.
-Removing empty process `DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$231'.
-Found and cleaned up 1 empty switch in `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$230'.
-Removing empty process `DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$230'.
-Removing empty process `DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$229'.
-Removing empty process `DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$228'.
-Removing empty process `DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$227'.
-Found and cleaned up 1 empty switch in `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$226'.
-Removing empty process `DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$226'.
-Removing empty process `DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$225'.
-Removing empty process `DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$224'.
-Removing empty process `DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$223'.
-Found and cleaned up 1 empty switch in `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$222'.
-Removing empty process `DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$222'.
-Removing empty process `DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$221'.
-Removing empty process `DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$220'.
-Removing empty process `DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$219'.
-Found and cleaned up 2 empty switches in `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$218'.
-Removing empty process `DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$218'.
-Removing empty process `DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$217'.
-Found and cleaned up 1 empty switch in `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$216'.
-Removing empty process `DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$216'.
-Removing empty process `DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$215'.
-Found and cleaned up 2 empty switches in `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$214'.
-Removing empty process `DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$214'.
-Removing empty process `DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$213'.
-Found and cleaned up 1 empty switch in `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$212'.
-Removing empty process `DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$212'.
-Removing empty process `DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$211'.
-Found and cleaned up 1 empty switch in `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$210'.
-Removing empty process `DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$210'.
-Removing empty process `DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$209'.
-Removing empty process `DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$208'.
+Removing empty process `ALU.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:661$252'.
+Removing empty process `DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$249'.
+Found and cleaned up 1 empty switch in `\DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$248'.
+Removing empty process `DFFNCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:535$248'.
+Removing empty process `DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$247'.
+Removing empty process `DFFNC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:515$246'.
+Removing empty process `DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$245'.
+Found and cleaned up 1 empty switch in `\DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$244'.
+Removing empty process `DFFNPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:496$244'.
+Removing empty process `DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$243'.
+Removing empty process `DFFNP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:476$242'.
+Removing empty process `DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$241'.
+Found and cleaned up 2 empty switches in `\DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$240'.
+Removing empty process `DFFNRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:457$240'.
+Removing empty process `DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$239'.
+Found and cleaned up 1 empty switch in `\DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$238'.
+Removing empty process `DFFNR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:437$238'.
+Removing empty process `DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$237'.
+Found and cleaned up 2 empty switches in `\DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$236'.
+Removing empty process `DFFNSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:418$236'.
+Removing empty process `DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$235'.
+Found and cleaned up 1 empty switch in `\DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$234'.
+Removing empty process `DFFNS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:398$234'.
+Removing empty process `DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$233'.
+Found and cleaned up 1 empty switch in `\DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$232'.
+Removing empty process `DFFNE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:381$232'.
+Removing empty process `DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$231'.
+Removing empty process `DFFN.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:366$230'.
+Removing empty process `DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$229'.
+Found and cleaned up 1 empty switch in `\DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$228'.
+Removing empty process `DFFCE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:348$228'.
+Removing empty process `DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$227'.
+Removing empty process `DFFC.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:328$226'.
+Removing empty process `DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$225'.
+Found and cleaned up 1 empty switch in `\DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$224'.
+Removing empty process `DFFPE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:309$224'.
+Removing empty process `DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$223'.
+Removing empty process `DFFP.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:289$222'.
+Removing empty process `DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$221'.
+Found and cleaned up 2 empty switches in `\DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$220'.
+Removing empty process `DFFRE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:270$220'.
+Removing empty process `DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$219'.
+Found and cleaned up 1 empty switch in `\DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$218'.
+Removing empty process `DFFR.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:250$218'.
+Removing empty process `DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$217'.
+Found and cleaned up 2 empty switches in `\DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$216'.
+Removing empty process `DFFSE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:231$216'.
+Removing empty process `DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$215'.
+Found and cleaned up 1 empty switch in `\DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$214'.
+Removing empty process `DFFS.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:211$214'.
+Removing empty process `DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$213'.
+Found and cleaned up 1 empty switch in `\DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$212'.
+Removing empty process `DFFE.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:194$212'.
+Removing empty process `DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:0$211'.
+Removing empty process `DFF.$proc$C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v:179$210'.
 Found and cleaned up 1 empty switch in `\top.$proc$../design/top.sv:12$4'.
 Removing empty process `top.$proc$../design/top.sv:12$4'.
 Cleaned up 19 empty switches.
@@ -437,8 +437,8 @@ Optimizing module top.
 
 2.7.5.2. Executing OPT_MERGE pass (detect identical cells).
 Finding identical cells in module `\top'.
-<suppressed ~3 debug messages>
-Removed a total of 1 cells.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
 
 2.7.5.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
 Running muxtree optimizer on module \top..
@@ -460,7 +460,7 @@ Removed a total of 0 cells.
 
 2.7.5.7. Executing OPT_CLEAN pass (remove unused cells and wires).
 Finding unused cells or wires in module \top..
-Removed 0 unused cells and 1 unused wires.
+Removed 0 unused cells and 2 unused wires.
 <suppressed ~1 debug messages>
 
 2.7.5.8. Executing OPT_EXPR pass (perform const folding).
@@ -550,30 +550,36 @@ Optimizing module top.
 
 2.7.8. Executing WREDUCE pass (reducing word size of cells).
 Removed top 29 bits (of 32) from port B of cell top.$lt$../design/top.sv:15$8 ($lt).
-Removed top 28 bits (of 32) from port A of cell top.$neg$../design/top.sv:0$13 ($neg).
-Converting cell top.$neg$../design/top.sv:0$13 ($neg) from signed to unsigned.
-Removed top 1 bits (of 4) from port A of cell top.$neg$../design/top.sv:0$13 ($neg).
-Removed top 6 bits (of 7) from port A of cell top.$not$../design/top.sv:17$17 ($not).
-Removed top 6 bits (of 7) from port Y of cell top.$not$../design/top.sv:17$17 ($not).
-Removed top 6 bits (of 7) from wire top.$and$../design/top.sv:0$18_Y.
-Removed top 6 bits (of 7) from wire top.$extend$../design/top.sv:17$16_Y.
-Removed top 6 bits (of 7) from wire top.$not$../design/top.sv:17$17_Y.
+Removed top 31 bits (of 32) from port B of cell top.$sub$../design/top.sv:17$12 ($sub).
+Removed top 28 bits (of 32) from port Y of cell top.$sub$../design/top.sv:17$12 ($sub).
+Converting cell top.$neg$../design/top.sv:0$14 ($neg) from signed to unsigned.
+Removed top 1 bits (of 33) from port A of cell top.$neg$../design/top.sv:0$14 ($neg).
+Removed top 28 bits (of 32) from port B of cell top.$shiftx$../design/top.sv:0$17 ($shiftx).
+Removed top 6 bits (of 7) from port A of cell top.$not$../design/top.sv:17$19 ($not).
+Removed top 6 bits (of 7) from port Y of cell top.$not$../design/top.sv:17$19 ($not).
+Removed top 6 bits (of 7) from wire top.$and$../design/top.sv:0$20_Y.
+Removed top 6 bits (of 7) from wire top.$extend$../design/top.sv:17$18_Y.
+Removed top 6 bits (of 7) from wire top.$not$../design/top.sv:17$19_Y.
+Removed top 1 bits (of 33) from wire top.$sub$../design/top.sv:0$13_Y.
 
 2.7.9. Executing PEEPOPT pass (run peephole optimizers).
 
 2.7.10. Executing OPT_CLEAN pass (remove unused cells and wires).
 Finding unused cells or wires in module \top..
-Removed 0 unused cells and 4 unused wires.
+Removed 0 unused cells and 5 unused wires.
 <suppressed ~1 debug messages>
 
 2.7.11. Executing ALUMACC pass (create $alu and $macc cells).
 Extracting $alu and $macc cells in module top:
-  creating $macc model for $neg$../design/top.sv:0$13 ($neg).
-  creating $alu model for $macc $neg$../design/top.sv:0$13.
+  creating $macc model for $neg$../design/top.sv:0$14 ($neg).
+  creating $macc model for $sub$../design/top.sv:17$12 ($sub).
+  creating $alu model for $macc $sub$../design/top.sv:17$12.
+  creating $alu model for $macc $neg$../design/top.sv:0$14.
   creating $alu model for $lt$../design/top.sv:15$8 ($lt): new $alu
-  creating $alu cell for $lt$../design/top.sv:15$8: $auto$alumacc.cc:485:replace_alu$374
-  creating $alu cell for $neg$../design/top.sv:0$13: $auto$alumacc.cc:485:replace_alu$379
-  created 2 $alu and 0 $macc cells.
+  creating $alu cell for $lt$../design/top.sv:15$8: $auto$alumacc.cc:485:replace_alu$377
+  creating $alu cell for $neg$../design/top.sv:0$14: $auto$alumacc.cc:485:replace_alu$382
+  creating $alu cell for $sub$../design/top.sv:17$12: $auto$alumacc.cc:485:replace_alu$385
+  created 3 $alu and 0 $macc cells.
 
 2.7.12. Executing SHARE pass (SAT-based resource sharing).
 
@@ -780,57 +786,58 @@ Generating RTLIL representation for module `\_80_gw1n_alu'.
 Successfully finished Verilog frontend.
 
 2.13.3. Continuing TECHMAP pass.
-Using template $paramod$117a422dd91271f31dcbd629d7b52dc0eb1e49ab\_80_gw1n_alu for cells of type $alu.
-Using template $paramod$constmap:7e878be5346f6c5c1a7dcbfa7c72a40b38a6ebb5$paramod$a48304ff463b3ed70ba362de60d6e30ca43778be\_90_shift_shiftx for cells of type $shift.
-Using template $paramod$constmap:a28ebeb1a03b55cf0369783d594aca5dc4dd5674$paramod$5d77dbe49e60ad0b102df577e14f3b82dfb4e361\_90_shift_shiftx for cells of type $shiftx.
+Using template $paramod$1a9b2adc0e90ccf2d22dba8d72430d10741e65ed\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$99501223b6f7e5af250351eeb57edb5403a5ad0b\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$constmap:d5cef534503bb5585896238eec2c5fa65eeb5211$paramod$97cc8a1bdd943c352e360b0a7c8d5f6bee091418\_90_shift_shiftx for cells of type $shift.
+Using template $paramod$78e969f2586efcf3a5b0b0440bcca0db83d5cca2\_80_gw1n_alu for cells of type $alu.
+Using template $paramod$constmap:8792d7535dcac137e92456c3ea12bdd22e6ee5f0$paramod$7932bbe1915fc97bf3092b67ffcb9900617242a8\_90_shift_shiftx for cells of type $shiftx.
 Using extmapper simplemap for cells of type $not.
 Analyzing pattern of constant bits for this cell:
-Creating constmapped module `$paramod$constmap:13d07fc0f50cc3448162360ac03395b8375923ad$paramod$a48304ff463b3ed70ba362de60d6e30ca43778be\_90_shift_shiftx'.
+Creating constmapped module `$paramod$constmap:d1f1f5be790496f47cd40eb19747d521a0c542d5$paramod$97cc8a1bdd943c352e360b0a7c8d5f6bee091418\_90_shift_shiftx'.
 
-2.13.16. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
-Running muxtree optimizer on module $paramod$constmap:13d07fc0f50cc3448162360ac03395b8375923ad$paramod$a48304ff463b3ed70ba362de60d6e30ca43778be\_90_shift_shiftx..
+2.13.20. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod$constmap:d1f1f5be790496f47cd40eb19747d521a0c542d5$paramod$97cc8a1bdd943c352e360b0a7c8d5f6bee091418\_90_shift_shiftx..
   Creating internal representation of mux trees.
   Evaluating internal representation of mux trees.
   Analyzing evaluation results.
-    dead port 2/2 on $mux $procmux$742.
-    dead port 2/2 on $mux $procmux$736.
-    dead port 2/2 on $mux $procmux$730.
-    dead port 2/2 on $mux $procmux$724.
+    dead port 2/2 on $mux $procmux$755.
+    dead port 2/2 on $mux $procmux$749.
+    dead port 2/2 on $mux $procmux$743.
+    dead port 2/2 on $mux $procmux$737.
 Removed 4 multiplexer ports.
-<suppressed ~457 debug messages>
+<suppressed ~499 debug messages>
 
-2.13.17. Executing OPT_EXPR pass (perform const folding).
-Optimizing module $paramod$constmap:13d07fc0f50cc3448162360ac03395b8375923ad$paramod$a48304ff463b3ed70ba362de60d6e30ca43778be\_90_shift_shiftx.
-<suppressed ~29 debug messages>
+2.13.21. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$constmap:d1f1f5be790496f47cd40eb19747d521a0c542d5$paramod$97cc8a1bdd943c352e360b0a7c8d5f6bee091418\_90_shift_shiftx.
+<suppressed ~30 debug messages>
 Removed 0 unused cells and 9 unused wires.
-Using template $paramod$constmap:13d07fc0f50cc3448162360ac03395b8375923ad$paramod$a48304ff463b3ed70ba362de60d6e30ca43778be\_90_shift_shiftx for cells of type $shift.
+Using template $paramod$constmap:d1f1f5be790496f47cd40eb19747d521a0c542d5$paramod$97cc8a1bdd943c352e360b0a7c8d5f6bee091418\_90_shift_shiftx for cells of type $shift.
 Using extmapper simplemap for cells of type $and.
 Using extmapper simplemap for cells of type $or.
 Using extmapper simplemap for cells of type $mux.
-Using template $paramod$78e969f2586efcf3a5b0b0440bcca0db83d5cca2\_80_gw1n_alu for cells of type $alu.
 Using extmapper simplemap for cells of type $ne.
 Using extmapper simplemap for cells of type $xor.
 Using extmapper simplemap for cells of type $pos.
 No more expansions possible.
-<suppressed ~187 debug messages>
+<suppressed ~180 debug messages>
 
 2.14. Executing OPT pass (performing simple optimizations).
 
 2.14.1. Executing OPT_EXPR pass (perform const folding).
 Optimizing module top.
-<suppressed ~272 debug messages>
+<suppressed ~283 debug messages>
 
 2.14.2. Executing OPT_MERGE pass (detect identical cells).
 Finding identical cells in module `\top'.
-<suppressed ~159 debug messages>
-Removed a total of 53 cells.
+<suppressed ~168 debug messages>
+Removed a total of 56 cells.
 
 2.14.3. Executing OPT_DFF pass (perform DFF optimizations).
 
 2.14.4. Executing OPT_CLEAN pass (remove unused cells and wires).
 Finding unused cells or wires in module \top..
-Removed 41 unused cells and 191 unused wires.
-<suppressed ~42 debug messages>
+Removed 72 unused cells and 215 unused wires.
+<suppressed ~73 debug messages>
 
 2.14.5. Finished fast OPT passes.
 
@@ -877,14 +884,14 @@ No more expansions possible.
 
 2.19. Executing OPT_EXPR pass (perform const folding).
 Optimizing module top.
-<suppressed ~1 debug messages>
+<suppressed ~8 debug messages>
 
 2.20. Executing SIMPLEMAP pass (map simple cells to gate primitives).
 
 2.21. Executing ABC pass (technology mapping using ABC).
 
 2.21.1. Extracting gate netlist of module `\top' to `<abc-temp-dir>/input.blif'..
-Extracted 138 gates and 182 wires to a netlist network with 43 inputs and 7 outputs.
+Extracted 140 gates and 185 wires to a netlist network with 44 inputs and 7 outputs.
 
 2.21.1.1. Executing ABC.
 Running ABC command: "<yosys-exe-dir>/yosys-abc" -s -f <abc-temp-dir>/abc.script 2>&1
@@ -908,11 +915,11 @@ ABC: + write_blif <abc-temp-dir>/output.blif
 
 2.21.1.2. Re-integrating ABC results.
 ABC RESULTS:              $lut cells:       32
-ABC RESULTS:        internal signals:      132
-ABC RESULTS:           input signals:       43
+ABC RESULTS:        internal signals:      134
+ABC RESULTS:           input signals:       44
 ABC RESULTS:          output signals:        7
 Removing temp directory.
-Removed 0 unused cells and 110 unused wires.
+Removed 0 unused cells and 116 unused wires.
 
 2.22. Executing TECHMAP pass (map to technology primitives).
 
@@ -942,170 +949,174 @@ Generating RTLIL representation for module `\$lut'.
 Successfully finished Verilog frontend.
 
 2.22.2. Continuing TECHMAP pass.
-Using template $paramod$e49f6e3576ef1a6d2f58c54414dbb786af8cc869\$lut for cells of type $lut.
-Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'00000001 for cells of type $lut.
-Using template $paramod$251994398653c4cf8de320f1e306e535d5d2d624\$lut for cells of type $lut.
-Using template $paramod$571404c0889eaf57f492cb5e37f8acb5df5852f9\$lut for cells of type $lut.
 Using template $paramod$7a988de7554d6c5e09a742c0a2d36472e50c73b1\$lut for cells of type $lut.
-Using template $paramod$ee19d45db61acb4c70d938b97483a4ed4b792645\$lut for cells of type $lut.
 Using template $paramod$2ea69c779d6c1b79ac5a87b0d1523c67d5628dba\$lut for cells of type $lut.
-Using template $paramod$33e58adf67c6b686a154c9ce8ebbc4b04b8cabc5\$lut for cells of type $lut.
-Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'10000000 for cells of type $lut.
-Using template $paramod$c40138074690e4d985f3eb2508c81c8c031d420e\$lut for cells of type $lut.
+Using template $paramod$e49f6e3576ef1a6d2f58c54414dbb786af8cc869\$lut for cells of type $lut.
+Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'01000000 for cells of type $lut.
+Using template $paramod$4a920b3b714959931f00d116bc0195c828e32da3\$lut for cells of type $lut.
 Using template $paramod$658b9ed803f0d3d335616d3858b53e0a2522f1e8\$lut for cells of type $lut.
+Using template $paramod$571404c0889eaf57f492cb5e37f8acb5df5852f9\$lut for cells of type $lut.
 Using template $paramod$70584433677bebb1f97d6827c9ba85513c8c682b\$lut for cells of type $lut.
+Using template $paramod$5b1b77ae5303843d087875dd9676a5284b4b8820\$lut for cells of type $lut.
+Using template $paramod$b0b340fe7cf7f1f19ef6d4a08b114a9679770a5d\$lut for cells of type $lut.
 Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'00010000 for cells of type $lut.
 Using template $paramod$45d617c2ce0041e27b541f62b0fc3c3ce441a616\$lut for cells of type $lut.
 Using template $paramod$88d62cf3f14e49fc5a963ae5f62b54c9ee5dfb69\$lut for cells of type $lut.
-Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000011\LUT=8'01000000 for cells of type $lut.
-Using template $paramod$06830695223ba893a6828705678e86f49fc9f0a3\$lut for cells of type $lut.
+Using template $paramod$ded66d59041780c2280b23e9f1514bcb657ddd59\$lut for cells of type $lut.
 Using template $paramod$733724a245035cdea1855dd6e12597fd4be15aeb\$lut for cells of type $lut.
 Using template $paramod\$lut\WIDTH=32'00000000000000000000000000000010\LUT=4'0100 for cells of type $lut.
 Using template $paramod$97f49e57260d2b61249e1ad7aba51fb046188a44\$lut for cells of type $lut.
 Using template $paramod$cb47f2fbd2c567ca2acfda70237c667f3266a49e\$lut for cells of type $lut.
-Using template $paramod$16f4d5a320f8c31ec68e2957f4cfe520c3f549a4\$lut for cells of type $lut.
-Using template $paramod$bf0d0292861bdee659ef5cbc5e58b330ac5871f9\$lut for cells of type $lut.
-Using template $paramod$99c304a50be594940094b0acc68aa2a05d0abe85\$lut for cells of type $lut.
-Using template $paramod$f0149a15e2c00885ac1a4fae42309e85708dbe59\$lut for cells of type $lut.
-Using template $paramod$9664483609d9e726df9697364de1aad825ad3979\$lut for cells of type $lut.
-Using template $paramod$0b66a43d8f67f21aa51843ddac3320de734fcca4\$lut for cells of type $lut.
-Using template $paramod$41aa8a4bea9bf9fb2e2d3dd27b240cb1c06ebaf0\$lut for cells of type $lut.
-Using template $paramod$8461a38da2644081983cd5b082d7f6c55a8dc5b7\$lut for cells of type $lut.
-Using template $paramod$7a304f4cc33557f2483dc5919be108a1249ae1f1\$lut for cells of type $lut.
-Using template $paramod$cdda1314e12ea43005b6105b86213bcd1235f273\$lut for cells of type $lut.
+Using template $paramod$06830695223ba893a6828705678e86f49fc9f0a3\$lut for cells of type $lut.
 Using template $paramod$d87a490884ae9e6ce83c67663e76e87cdae32eab\$lut for cells of type $lut.
+Using template $paramod$7a304f4cc33557f2483dc5919be108a1249ae1f1\$lut for cells of type $lut.
+Using template $paramod$a8f0b66d6442d140b08ba5dde7bccc974236df60\$lut for cells of type $lut.
+Using template $paramod$44bfdff5e3ae220c23a770741990ae3127a74cff\$lut for cells of type $lut.
+Using template $paramod$41aa8a4bea9bf9fb2e2d3dd27b240cb1c06ebaf0\$lut for cells of type $lut.
+Using template $paramod$0b66a43d8f67f21aa51843ddac3320de734fcca4\$lut for cells of type $lut.
+Using template $paramod$9664483609d9e726df9697364de1aad825ad3979\$lut for cells of type $lut.
+Using template $paramod$692927e279b3d5c42ee4aacb287247c0b34943ed\$lut for cells of type $lut.
+Using template $paramod$8061163594dd20ba3f91f0a52fa6777a60ed617e\$lut for cells of type $lut.
+Using template $paramod$58d806574f32fa08aa8bdb1774a536a883d3bd28\$lut for cells of type $lut.
+Using template $paramod$aa22e94246b36e2cf01c175bbd947110b378bc83\$lut for cells of type $lut.
 Using template $paramod$e799ebc1d5c0fbf442f6b47afee03012e10e9a3e\$lut for cells of type $lut.
 Using template $paramod$4c1f25968a343e8f637ec52b47069366e1d71c38\$lut for cells of type $lut.
 Using template $paramod$9b997518edfb4aa14fea84092eb1268ae2f1557a\$lut for cells of type $lut.
 Using template $paramod$e872ba8d74c87dbc8bfa934d1358fa7dbe519d0d\$lut for cells of type $lut.
 Using template $paramod$74d349bf2f0b1841d9bdcdadef4ab6cffb47d50b\$lut for cells of type $lut.
 Using template $paramod$79cd3165fa74f8326ac39e9723c6f254a5b4f26a\$lut for cells of type $lut.
-Using template $paramod$aa22e94246b36e2cf01c175bbd947110b378bc83\$lut for cells of type $lut.
-Using template $paramod$58d806574f32fa08aa8bdb1774a536a883d3bd28\$lut for cells of type $lut.
-Using template $paramod$ca8c9665a64aa5f3d9592dfd72deaf1acbe3bc6d\$lut for cells of type $lut.
-Using template $paramod$692927e279b3d5c42ee4aacb287247c0b34943ed\$lut for cells of type $lut.
-Using template $paramod$fe2ccc9771c7f3621af3392ea69c0322e13310d4\$lut for cells of type $lut.
+Using template $paramod$cdda1314e12ea43005b6105b86213bcd1235f273\$lut for cells of type $lut.
+Using template $paramod$8461a38da2644081983cd5b082d7f6c55a8dc5b7\$lut for cells of type $lut.
+Using template $paramod$e6f71dbb2cf32888740db4545cfdb7e18b4cfc56\$lut for cells of type $lut.
+Using template $paramod$d3881bb740f91af937419188a11f66805dfaccb3\$lut for cells of type $lut.
 Using template $paramod$c315fd171a22ad0b563d890e3adda172ea240769\$lut for cells of type $lut.
 Using template $paramod$71a96c621bf23b139038ce199a04f47b853774b7\$lut for cells of type $lut.
-Using template $paramod$d5704f4493d38b8f4e498edb8e1fdbc20dfc8125\$lut for cells of type $lut.
-Using template $paramod$37a799f80fe01cd4beeff0280499551ebab56099\$lut for cells of type $lut.
+Using template $paramod$38177e36b89f143374f3e6c12768b8c6ea0a8a73\$lut for cells of type $lut.
+Using template $paramod$8e593e8c7aed2c23a6b9d9ef3c2c5e55dfc6d3fe\$lut for cells of type $lut.
+Using template $paramod$bf0d0292861bdee659ef5cbc5e58b330ac5871f9\$lut for cells of type $lut.
 Using template $paramod$8d2d81c48a78e09d8be8dac5eea76133c2e4a012\$lut for cells of type $lut.
-Using template $paramod$405a0cc1c26e40be2456c1b6543b9535bf4d889a\$lut for cells of type $lut.
+Using template $paramod$fe2ccc9771c7f3621af3392ea69c0322e13310d4\$lut for cells of type $lut.
 Using template $paramod$ccee60dec38c9fb078d51dcf231179b27581c6be\$lut for cells of type $lut.
 Using template $paramod$a2933cc452b1c5d75dc534db0fd59d02af739fce\$lut for cells of type $lut.
+Using template $paramod$60df7303d2d8aa6fd132f358293140efc36acea0\$lut for cells of type $lut.
+Using template $paramod$f8c26f4e4943fb04374dc6dbc5eda1d33f69a6d5\$lut for cells of type $lut.
+Using template $paramod$ca8c9665a64aa5f3d9592dfd72deaf1acbe3bc6d\$lut for cells of type $lut.
+Using template $paramod$f3681af76a61a5b27cbf7d348fac70653361809d\$lut for cells of type $lut.
+Using template $paramod$d5704f4493d38b8f4e498edb8e1fdbc20dfc8125\$lut for cells of type $lut.
+Using template $paramod$bfc6e9cbe3c9c007686f9a45ac8e0fc13fcd085f\$lut for cells of type $lut.
 Using template $paramod$61bc98ece8c76bffd4acdf40e5f231340cba90fc\$lut for cells of type $lut.
-Using template $paramod$c0670f2aab73eea2cd5c91d3b03ce85be7de1148\$lut for cells of type $lut.
-Using template $paramod$66a6dcc10725e4ac1083ccf27e0d8f49e2c645ce\$lut for cells of type $lut.
-Using template $paramod$a4427af859b16e05c5bc8d69a29ce9513f478bd8\$lut for cells of type $lut.
+Using template $paramod$a8cb9dc6eccb911035b7155b3fa8bdcdb987b386\$lut for cells of type $lut.
 Using template $paramod$2274a105a4a0f2ee10298ac11fa23fbea35642e1\$lut for cells of type $lut.
-Using template $paramod$66060bb1c26d0bf89b9b90d60f99bcbf7fbff7ae\$lut for cells of type $lut.
-Using template $paramod$b8693e16e430348f1aa83ae1aaba0cce3e6b01ea\$lut for cells of type $lut.
-Using template $paramod$a95aeb58822b83840ad0d33221e28b316b409b83\$lut for cells of type $lut.
-Using template $paramod$4b6d71ecc8170bfacf38b3b71c1a9b261b163b05\$lut for cells of type $lut.
+Using template $paramod$c0670f2aab73eea2cd5c91d3b03ce85be7de1148\$lut for cells of type $lut.
+Using template $paramod$98de9ef08fc35f91c1446acf8ddeeebbb4fe99dd\$lut for cells of type $lut.
+Using template $paramod$195b06f3d27f1e05fd3df2e6490a360b1e9ebf1d\$lut for cells of type $lut.
+Using template $paramod$af8821c30e4e55c5d676dcea463d55469fc768b8\$lut for cells of type $lut.
+Using template $paramod$95109a62fea23d1738324748c3fbb67f85edd1de\$lut for cells of type $lut.
+Using template $paramod$7125b224d5920c893c2dd3de98a266451c2ebe7d\$lut for cells of type $lut.
+Using template $paramod$eac7ee502612457d62e471974b70426d3c28f7fd\$lut for cells of type $lut.
+Using template $paramod$7a36951baf95cd2183bd59cb8867efd49cdcf08c\$lut for cells of type $lut.
 No more expansions possible.
-<suppressed ~1043 debug messages>
+<suppressed ~1101 debug messages>
 
 2.23. Executing OPT_LUT_INS pass (discard unused LUT inputs).
 Optimizing LUTs in top.
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1546.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 2)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1564.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1546.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 2)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1564.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1546.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 2)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1566.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1564.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1566.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1546.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1566.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1548.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1566.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1566.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1566.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1546.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 2)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1548.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1554.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1554.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1564.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1546.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 2)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1564.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1560.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1539.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1550.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1552.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1546.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 2)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1564.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1552.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1539.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1548.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1554.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1552.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1539.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 3)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1560.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 1)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1563.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1561.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1569.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
-  Optimizing lut $abc$1537$auto$blifparse.cc:525:parse_blif$1567.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1624.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1641.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1641.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1624.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1623.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1623.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1624.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1616.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1616.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1623.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1623.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1624.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1623.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1641.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1643.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1643.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1643.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1616.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1636.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 1)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1641.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1638.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1643.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1636.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1641.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1624.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1623.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 3)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1624.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1623.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1637.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1641.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1640.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1643.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1644.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1643.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
+  Optimizing lut $abc$1614$auto$blifparse.cc:525:parse_blif$1646.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.genblk1.lut0.genblk1.genblk1.genblk1.genblk1.genblk1.lut1 (4 -> 0)
 
 2.24. Executing SETUNDEF pass (replace undef values with defined constants).
 
 2.25. Executing HILOMAP pass (mapping to constant drivers).
-Removed 0 unused cells and 503 unused wires.
+Removed 0 unused cells and 462 unused wires.
 
 2.26. Executing AUTONAME pass.
-Renamed 1120 objects in module top (37 iterations).
-<suppressed ~529 debug messages>
+Renamed 1314 objects in module top (37 iterations).
+<suppressed ~496 debug messages>
 
 2.27. Executing HIERARCHY pass (managing design hierarchy).
 
@@ -1120,25 +1131,25 @@ Removed 0 unused modules.
 
 === top ===
 
-   Number of wires:                238
-   Number of wire bits:            417
-   Number of public wires:         238
-   Number of public wire bits:     417
+   Number of wires:                220
+   Number of wire bits:            433
+   Number of public wires:         220
+   Number of public wire bits:     433
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                294
-     ALU                            35
+   Number of cells:                279
+     ALU                            40
      GND                             1
      IBUF                           10
      LUT1                           80
-     LUT2                            7
-     LUT3                           10
-     LUT4                           39
-     MUX2_LUT5                      59
-     MUX2_LUT6                      28
+     LUT2                            1
+     LUT3                           11
+     LUT4                           34
+     MUX2_LUT5                      53
+     MUX2_LUT6                      25
      MUX2_LUT7                      12
-     MUX2_LUT8                       5
+     MUX2_LUT8                       4
      OBUF                            7
      VCC                             1
 
@@ -1148,6 +1159,6 @@ Found and reported 0 problems.
 
 2.30. Executing JSON backend.
 
-End of script. Logfile hash: 8a060afe54
+End of script. Logfile hash: ea9acd768e
 Yosys 0.26+1 (git sha1 b1a011138, x86_64-w64-mingw32-g++ 9.2.1 -Os)
 Time spent: 1% 21x opt_expr (0 sec), 1% 15x opt_clean (0 sec), ...
