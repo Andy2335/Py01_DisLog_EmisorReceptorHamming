@@ -1,0 +1,242 @@
+Info: Series:GW1N-9C Device:GW1NR-9C Package:QFN88P Speed:C6/I5
+Info: Cell Bit7 not found
+Info: Cell Bit7 not found
+Info: Cell Bit6 not found
+Info: Cell Bit6 not found
+Info: Cell Bit5 not found
+Info: Cell Bit5 not found
+Info: Cell Bit4 not found
+Info: Cell Bit4 not found
+Info: Cell Bit3 not found
+Info: Cell Bit3 not found
+Info: Cell Bit2 not found
+Info: Cell Bit2 not found
+Info: Cell Bit1 not found
+Info: Cell Bit1 not found
+Info: Cell sw[0] not found
+Info: Cell sw[0] not found
+Info: Cell sw[1] not found
+Info: Cell sw[1] not found
+Info: Cell sw[2] not found
+Info: Cell sw[2] not found
+Info: Cell sw[3] not found
+Info: Cell sw[3] not found
+Info: Cell segments[6] not found
+Info: Cell segments[6] not found
+Info: Cell segments[0] not found
+Info: Cell segments[0] not found
+Info: Cell segments[1] not found
+Info: Cell segments[1] not found
+Info: Cell segments[2] not found
+Info: Cell segments[2] not found
+Info: Cell segments[3] not found
+Info: Cell segments[3] not found
+Info: Cell segments[4] not found
+Info: Cell segments[4] not found
+Info: Cell segments[5] not found
+Info: Cell segments[5] not found
+Info: Cell clk not found
+Info: Cell clk not found
+
+Info: Packing constants..
+Info: Packing Shadow RAM..
+Info: Packing GSR..
+Info: Packing IOs..
+Info: Packing diff IOs..
+Info: Packing IO logic..
+Info: Packing wide LUTs..
+Info: Packing LUT5s..
+Info: Packing LUT6s..
+Info: Packing LUT7s..
+Info: Packing LUT8s..
+Info: Packing ALUs..
+Info: Packing LUT-FFs..
+Info: Packing non-LUT FFs..
+Info: Packing PLLs..
+Info: Checksum: 0xeda7f547
+
+Info: Annotating ports with timing budgets for target frequency 27.00 MHz
+Info: Checksum: 0xeda7f547
+
+Info: Device utilisation:
+Info: 	                 VCC:     1/    1   100%
+Info: 	               SLICE:   174/ 8640     2%
+Info: 	                 IOB:    28/  274    10%
+Info: 	                ODDR:     0/  274     0%
+Info: 	           MUX2_LUT5:    53/ 4320     1%
+Info: 	           MUX2_LUT6:    25/ 2160     1%
+Info: 	           MUX2_LUT7:    12/ 1080     1%
+Info: 	           MUX2_LUT8:     4/ 1056     0%
+Info: 	                 GND:     1/    1   100%
+Info: 	                RAMW:     0/  270     0%
+Info: 	                 GSR:     1/    1   100%
+Info: 	                 OSC:     0/    1     0%
+Info: 	                rPLL:     0/    2     0%
+
+Info: Placed 3 cells based on constraints.
+Info: Creating initial analytic placement for 45 cells, random placement wirelen = 3521.
+Info:     at initial placer iter 0, wirelen = 873
+Info:     at initial placer iter 1, wirelen = 808
+Info:     at initial placer iter 2, wirelen = 765
+Info:     at initial placer iter 3, wirelen = 749
+Info: Running main analytical placer, max placement attempts per cell = 11175.
+Info:     at iteration #1, type SLICE: wirelen solved = 779, spread = 906, legal = 920; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT5: wirelen solved = 911, spread = 915, legal = 915; time = 0.00s
+Info:     at iteration #1, type GND: wirelen solved = 915, spread = 915, legal = 915; time = 0.00s
+Info:     at iteration #1, type GSR: wirelen solved = 915, spread = 915, legal = 915; time = 0.00s
+Info:     at iteration #1, type VCC: wirelen solved = 915, spread = 915, legal = 915; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT8: wirelen solved = 921, spread = 921, legal = 953; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT6: wirelen solved = 947, spread = 947, legal = 947; time = 0.00s
+Info:     at iteration #1, type MUX2_LUT7: wirelen solved = 941, spread = 941, legal = 958; time = 0.01s
+Info:     at iteration #1, type ALL: wirelen solved = 762, spread = 935, legal = 960; time = 0.00s
+Info:     at iteration #2, type SLICE: wirelen solved = 776, spread = 919, legal = 946; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT5: wirelen solved = 939, spread = 939, legal = 941; time = 0.01s
+Info:     at iteration #2, type GND: wirelen solved = 941, spread = 941, legal = 941; time = 0.00s
+Info:     at iteration #2, type GSR: wirelen solved = 941, spread = 941, legal = 941; time = 0.00s
+Info:     at iteration #2, type VCC: wirelen solved = 941, spread = 941, legal = 941; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT8: wirelen solved = 948, spread = 948, legal = 948; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT6: wirelen solved = 950, spread = 950, legal = 950; time = 0.00s
+Info:     at iteration #2, type MUX2_LUT7: wirelen solved = 963, spread = 963, legal = 963; time = 0.00s
+Info:     at iteration #2, type ALL: wirelen solved = 754, spread = 967, legal = 964; time = 0.01s
+Info:     at iteration #3, type SLICE: wirelen solved = 805, spread = 887, legal = 905; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT5: wirelen solved = 883, spread = 883, legal = 883; time = 0.00s
+Info:     at iteration #3, type GND: wirelen solved = 883, spread = 883, legal = 883; time = 0.00s
+Info:     at iteration #3, type GSR: wirelen solved = 883, spread = 883, legal = 883; time = 0.00s
+Info:     at iteration #3, type VCC: wirelen solved = 883, spread = 883, legal = 883; time = 0.01s
+Info:     at iteration #3, type MUX2_LUT8: wirelen solved = 884, spread = 884, legal = 879; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT6: wirelen solved = 879, spread = 879, legal = 891; time = 0.00s
+Info:     at iteration #3, type MUX2_LUT7: wirelen solved = 901, spread = 901, legal = 901; time = 0.00s
+Info:     at iteration #3, type ALL: wirelen solved = 762, spread = 881, legal = 885; time = 0.00s
+Info: HeAP Placer Time: 0.08s
+Info:   of which solving equations: 0.05s
+Info:   of which spreading cells: 0.00s
+Info:   of which strict legalisation: 0.00s
+
+Info: Running simulated annealing placer for refinement.
+Info:   at iteration #1: temp = 0.000000, timing cost = 0, wirelen = 885
+Info:   at iteration #5: temp = 0.000000, timing cost = 0, wirelen = 673
+Info:   at iteration #10: temp = 0.000000, timing cost = 0, wirelen = 635
+Info:   at iteration #15: temp = 0.000000, timing cost = 0, wirelen = 616
+Info:   at iteration #15: temp = 0.000000, timing cost = 0, wirelen = 616 
+Info: SA placement time 0.15s
+
+Info: Max delay <async> -> <async>: 44.77 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [ -7729,  -5510) |** 
+Info: [ -5510,  -3291) | 
+Info: [ -3291,  -1072) | 
+Info: [ -1072,   1147) |*** 
+Info: [  1147,   3366) |* 
+Info: [  3366,   5585) |*** 
+Info: [  5585,   7804) |**** 
+Info: [  7804,  10023) |**** 
+Info: [ 10023,  12242) |******** 
+Info: [ 12242,  14461) |**** 
+Info: [ 14461,  16680) |******** 
+Info: [ 16680,  18899) |******** 
+Info: [ 18899,  21118) |* 
+Info: [ 21118,  23337) |******** 
+Info: [ 23337,  25556) |************* 
+Info: [ 25556,  27775) |************* 
+Info: [ 27775,  29994) |*********** 
+Info: [ 29994,  32213) |*************** 
+Info: [ 32213,  34432) |******** 
+Info: [ 34432,  36651) |********* 
+Info: Checksum: 0x27a2be6c
+Info: Find global nets...
+Info: Routing globals...
+
+Info: Routing..
+Info: Setting up routing queue.
+Info: Routing 665 arcs.
+Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
+Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
+Info:        683 |       14        669 |   14   669 |         0|       2.18       2.18|
+Info: Routing complete.
+Info: Router1 time 2.18s
+Info: Checksum: 0xcbd54eaf
+
+Info: Critical path report for cross-domain path '<async>' -> '<async>':
+Info: curr total
+Info:  0.0  0.0  Source U3.CIN_IBUF_O$iob.O
+Info: 12.0 12.0    Net U1.code_out[1] budget 37.037037 ns (46,2) -> (12,17)
+Info:                Sink U2.BitError_ALU_I0_2_SUM_LUT4_I3_LC.C
+Info:                Defined in:
+Info:                  ../design/top.sv:48.7-51.6
+Info:                  ../design/top.sv:93.24-93.30
+Info:  0.8 12.8  Source U2.BitError_ALU_I0_2_SUM_LUT4_I3_LC.F
+Info:  0.3 13.1    Net U2.BitError_ALU_I0_SUM_MUX2_LUT5_O_I1 budget 8.682759 ns (12,17) -> (12,17)
+Info:                Sink U2.BitError_ALU_I0_SUM_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 13.3  Source U2.BitError_ALU_I0_SUM_MUX2_LUT5_O_LC.OF
+Info:  0.8 14.1    Net U2.BitError_ALU_I0_SUM[1] budget 8.682759 ns (12,17) -> (13,17)
+Info:                Sink U1.p1_LUT4_I0_LC.B
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.1 15.2  Source U1.p1_LUT4_I0_LC.F
+Info:  0.3 15.5    Net U1.p1_LUT4_I0_F budget 5.576006 ns (13,17) -> (13,17)
+Info:                Sink U1.p1_LUT4_I0_F_MUX2_LUT5_I1_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 15.7  Source U1.p1_LUT4_I0_F_MUX2_LUT5_I1_LC.OF
+Info:  3.7 19.4    Net U1.p1_LUT4_I0_F_MUX2_LUT5_I1_O[0] budget 5.576006 ns (13,17) -> (16,8)
+Info:                Sink U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.A
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:130.20-130.21
+Info:  1.0 20.4  Source U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1_LUT4_F_LC.F
+Info:  0.3 20.7    Net U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1 budget 3.136304 ns (16,8) -> (16,8)
+Info:                Sink U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:159.41-159.66
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:151.13-151.15
+Info:  0.2 20.9  Source U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_LC.OF
+Info:  0.3 21.2    Net U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1 budget 3.136304 ns (16,8) -> (16,8)
+Info:                Sink U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:165.42-165.67
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:157.13-157.15
+Info:  0.4 21.6  Source U2.transmision_MUX2_LUT7_O_I1_MUX2_LUT6_O_LC.OF
+Info:  0.3 21.9    Net U2.transmision_MUX2_LUT7_O_I1 budget 3.136304 ns (16,8) -> (16,8)
+Info:                Sink U2.transmision_MUX2_LUT7_O_LC.I1
+Info:                Defined in:
+Info:                  C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_map.v:163.13-163.15
+Info:  0.5 22.5  Source U2.transmision_MUX2_LUT7_O_LC.OF
+Info:  7.2 29.6    Net U2.transmision[4] budget 3.136304 ns (16,8) -> (46,8)
+Info:                Sink transmision_OBUF_O_2$iob.I
+Info:                Defined in:
+Info:                  ../design/top.sv:36.20-40.6
+Info:                  ../design/top.sv:171.24-171.35
+Info: 4.4 ns logic, 25.3 ns routing
+
+Info: Max delay <async> -> <async>: 29.64 ns
+
+Info: Slack histogram:
+Info:  legend: * represents 1 endpoint(s)
+Info:          + represents [1,1) endpoint(s)
+Info: [  7396,   8862) |** 
+Info: [  8862,  10328) | 
+Info: [ 10328,  11794) | 
+Info: [ 11794,  13260) |**** 
+Info: [ 13260,  14726) | 
+Info: [ 14726,  16192) |*** 
+Info: [ 16192,  17658) |**** 
+Info: [ 17658,  19124) |**** 
+Info: [ 19124,  20590) |**** 
+Info: [ 20590,  22056) |****** 
+Info: [ 22056,  23522) |******** 
+Info: [ 23522,  24988) |**** 
+Info: [ 24988,  26454) |************ 
+Info: [ 26454,  27920) |******** 
+Info: [ 27920,  29386) |********* 
+Info: [ 29386,  30852) |************** 
+Info: [ 30852,  32318) |********* 
+Info: [ 32318,  33784) |*************** 
+Info: [ 33784,  35250) |******* 
+Info: [ 35250,  36716) |********** 
+
+Info: Program finished normally.
