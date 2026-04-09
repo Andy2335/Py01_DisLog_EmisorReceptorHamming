@@ -53,6 +53,7 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 ## Jerarquía del dispositivo transmisor
 
 - Transmisor
+
   - Módulo 5.1 - Paridad Par Hamming (7,4)
 
   - Módulo 5.2 - Visualización hexadecimal en 7 segmentos - Decodificador
@@ -61,39 +62,9 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
   - Periféricos - Selectores y 7 segmentos
 
+- Testbench
 
-
-## Integración del transmisor
-> Pines
-> Diagrama de bloques del transmisor
-> Circuito lógico del transmisor
-> Código HDL del transmisor
-> Testbench del transmisor
-
-
-
-
-# 9. Verificación gráfica en GTKWave
-
-#### 4. Criterios de diseño
-Diagramas, texto explicativo...
-
-#### 5. Testbench
-Descripción y resultados de las pruebas hechas
-
-### Otros modulos
-- agregar informacion siguiendo el ejemplo anterior.
-
-
-## 4. Consumo de recursos
-
-## 5. Problemas encontrados durante el proyecto
-
-## Apendices:
-### Apendice 1:
-texto, imágen, etc
 
 # 15. Conclusiones 
-
-
+En este proyecto se logró implementar un sistema digital de transmisión de datos utilizando el código Hamming (7,4) para la detección y corrección de errores. El diseño se llevó a cabo en la plataforma FPGA Nano Tang 9k, permitiendo una implementación eficiente y funcional del transmisor. A través de la simulación y pruebas realizadas, se pudo verificar que el sistema es capaz de detectar y corregir errores en la cadena de datos transmitida, cumpliendo con los objetivos planteados al inicio del proyecto. Además, se desarrolló una interfaz de usuario que permite ingresar datos y simular errores, lo que facilita la comprensión del funcionamiento del código Hamming y su aplicación en sistemas digitales. Este proyecto no solo demuestra la importancia de la corrección de errores en la transmisión de datos, sino también la capacidad de las FPGAs para implementar soluciones digitales complejas de manera efectiva.
 ---
