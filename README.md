@@ -56,28 +56,44 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
 ## Jerarquía del dispositivo transmisor
 
-- Transmisor
+- Transmisor - Diagrama de bloques y circuito lógico
 
   - Módulo 5.1 - Paridad Par Hamming (7,4) 
   [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Modulo-5.1-%E2%80%90-M%C3%B3dulo-de-Codificaci%C3%B3n-Paridad-Par)
+
+    Se implementa el módulo de codificación utilizando el código Hamming (7,4) para generar la cadena de 7 bits a partir de una palabra de 4 bits ingresada por el usuario. Este módulo se encarga de calcular los bits de paridad necesarios para la detección y corrección de errores, siguiendo las reglas del código Hamming. La salida de este módulo es una cadena de 7 bits que representa la palabra original junto con los bits de paridad, lista para ser transmitida al receptor.
+
 
 
 
   - Módulo 5.2 - Visualización hexadecimal en 7 segmentos - Decodificador 
   [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/M%C3%B3dulo-5.2-%E2%80%90--M%C3%B3dulo-de-decodificaci%C3%B3n-binario-a-7-segmentos-representaci%C3%B3n-hexadecimal)
 
+    Este módulo se encarga de la visualización de la palabra de 4 bits ingresada por el usuario en un display de 7 segmentos. Para ello, se implementa un decodificador que convierte la representación binaria de la palabra en su equivalente hexadecimal, permitiendo así una visualización clara y comprensible para el usuario. Este módulo facilita la interacción con el sistema, ya que permite verificar visualmente la entrada antes de la codificación y transmisión de los datos.
+
 
 
   - Módulo 5.3 - Simulación de errores en la transmisión 
   [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/M%C3%B3dulo-5.3-%E2%80%90-M%C3%B3dulo-generador-de-error-en-la-codificaci%C3%B3n-Hamming-(7,4))
+
+    En este módulo se implementa la funcionalidad de simular errores en la cadena de datos codificada utilizando el código Hamming (7,4). A través de un selector, el usuario puede elegir simular un error en uno de los bits de la cadena de 7 bits generada por el módulo de codificación. Esto permite probar la capacidad del sistema para detectar y corregir errores, ya que el receptor deberá ser capaz de identificar y corregir el error simulado durante la transmisión. Este módulo es fundamental para validar la efectividad del código Hamming en la corrección de errores en sistemas digitales.
 
 
 
   - Periféricos - Selectores y 7 segmentos 
   [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Home-%E2%80%90-Transmisor-con-algoritmo-Hamming)
 
+
+
 - Testbench
 
+## Resultados
+- Se generó un diseño digital funcional en la plataforma FPGA Nano Tang 9k.
+- Se logró construir un testbench para verificar el correcto funcionamiento del sistema.
+- Se implementó el algoritmo Hamming (7,4) para la corrección de errores en la transmisión de datos.
+- Se visualizó los retrasos en la señal y forma de onda utilizando GTKWave y en las compuertas lógicas.
+- Se coordinó el diseño del proyecto con el equipo de trabajo, asignando tareas y responsabilidades y utilizando una herramienta de control de versiones (Git) para mantener un seguimiento del progreso y cambios realizados en el proyecto. Además de documentar el proceso de desarrollo y los resultados obtenidos en un repositorio de GitHub, facilitando la colaboración y el acceso a la información del proyecto para todos los miembros del equipo.
 
-# 15. Conclusiones 
+
+## Conclusion
 En este proyecto se logró implementar un sistema digital de transmisión de datos utilizando el código Hamming (7,4) para la detección y corrección de errores. El diseño se llevó a cabo en la plataforma FPGA Nano Tang 9k, permitiendo una implementación eficiente y funcional del transmisor. A través de la simulación y pruebas realizadas, se pudo verificar que el sistema es capaz de detectar y corregir errores en la cadena de datos transmitida, cumpliendo con los objetivos planteados al inicio del proyecto. Además, se desarrolló una interfaz de usuario que permite ingresar datos y simular errores, lo que facilita la comprensión del funcionamiento del código Hamming y su aplicación en sistemas digitales. Este proyecto no solo demuestra la importancia de la corrección de errores en la transmisión de datos, sino también la capacidad de las FPGAs para implementar soluciones digitales complejas de manera efectiva.
