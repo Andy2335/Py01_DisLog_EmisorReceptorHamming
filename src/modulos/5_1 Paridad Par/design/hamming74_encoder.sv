@@ -6,11 +6,6 @@ module hamming74_encoder (
     logic p1, p2, p4;
 
     always_comb begin
-        // Bits de datos
-        // data_in[3] = d3
-        // data_in[2] = d2
-        // data_in[1] = d1
-        // data_in[0] = d0
 
         // Paridad par
         p1 = data_in[3] ^ data_in[2] ^ data_in[0];
