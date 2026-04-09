@@ -18,13 +18,20 @@
 - **HDL**: Hardware Description Language
 - **SRC**: Source
 
+## Herramientas Utilizadas
+- **Lenguaje de descripción de hardware**: Verilog
+- **Plataforma de desarrollo**: FPGA Nano Tang 9k
+- **Multisim**: Para simulación de circuitos digitales
+- **Digital works**: Para simulación de circuitos digitales
+- **GTKWave**: Para verificación gráfica de señales en simulaciones
+
 ## Referencias
 [0] David Harris y Sarah Harris. *Digital Design and Computer Architecture. RISC-V Edition.* Morgan Kaufmann, 2022. ISBN: 978-0-12-820064-3
 [1] FZumb4do. open_source_fpga_environment. https://github.com/FZumb4do/open_source_fpga_environment.git
 [2] LUSHAYLABS. Tang Nano 9K: Getting Setup. https://learn.lushaylabs.com/getting-setup-with-the-tang-nano-9k/
 [3] Sipeed Wiki — Tang Nano 9K: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html
 
-# Objetivo
+## Objetivo
 Implementar un sistema digital que permita la visualización, simulación de errores en envió de datos, así como su emisión utilizando el código Hamming (7,4), apartir del cual se pueda detectar y corregir errores en la cadena de datos transmitida recibida por el receptor. 
 
 # Descripción general del sistema
@@ -33,8 +40,12 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
 
 ## Estructura de la documentación
+- `README.md`, Descripción general del proyecto
+- `docs`, Especificaciones, esquemas, hojas de datos, imagenes, simulaciones, etc.
+- `wiki`, Explicación detallada "Tutorial"
 
-- `docs`, para documentación e imágenes,
+
+
 - `src/build`, para compilación y archivos generados,
 - `src/constr`, para constraints,
 - `src/design`, para módulos del transmisor y receptor,
