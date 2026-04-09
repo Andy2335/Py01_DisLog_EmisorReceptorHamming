@@ -27,9 +27,9 @@
 
 ## Referencias
 [0] David Harris y Sarah Harris. *Digital Design and Computer Architecture. RISC-V Edition.* Morgan Kaufmann, 2022. ISBN: 978-0-12-820064-3
-[1] FZumb4do. open_source_fpga_environment. https://github.com/FZumb4do/open_source_fpga_environment.git
-[2] LUSHAYLABS. Tang Nano 9K: Getting Setup. https://learn.lushaylabs.com/getting-setup-with-the-tang-nano-9k/
-[3] Sipeed Wiki — Tang Nano 9K: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html
+[1] [FZumb4do. open_source_fpga_environment](https://github.com/FZumb4do/open_source_fpga_environment.git) 
+[2] [LUSHAYLABS. Tang Nano 9K: Getting Setup](https://learn.lushaylabs.com/getting-setup-with-the-tang-nano-9k/)
+[3] [Sipeed Wiki — Tang Nano 9K](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/Nano-9K.html)
 
 ## Objetivo
 Implementar un sistema digital que permita la visualización, simulación de errores en envió de datos, así como su emisión utilizando el código Hamming (7,4), apartir del cual se pueda detectar y corregir errores en la cadena de datos transmitida recibida por el receptor. 
@@ -54,17 +54,26 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
 - Transmisor
 
-  - Módulo 5.1 - Paridad Par Hamming (7,4)
+  - Módulo 5.1 - Paridad Par Hamming (7,4) 
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Modulo-5.1-%E2%80%90-M%C3%B3dulo-de-Codificaci%C3%B3n-Paridad-Par)
 
-  - Módulo 5.2 - Visualización hexadecimal en 7 segmentos - Decodificador
 
-  - Módulo 5.3 - Simulación de errores en la transmisión
 
-  - Periféricos - Selectores y 7 segmentos
+  - Módulo 5.2 - Visualización hexadecimal en 7 segmentos - Decodificador 
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/M%C3%B3dulo-5.2-%E2%80%90--M%C3%B3dulo-de-decodificaci%C3%B3n-binario-a-7-segmentos-representaci%C3%B3n-hexadecimal)
+
+
+
+  - Módulo 5.3 - Simulación de errores en la transmisión 
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/M%C3%B3dulo-5.3-%E2%80%90-M%C3%B3dulo-generador-de-error-en-la-codificaci%C3%B3n-Hamming-(7,4))
+
+
+
+  - Periféricos - Selectores y 7 segmentos 
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Home-%E2%80%90-Transmisor-con-algoritmo-Hamming)
 
 - Testbench
 
 
 # 15. Conclusiones 
 En este proyecto se logró implementar un sistema digital de transmisión de datos utilizando el código Hamming (7,4) para la detección y corrección de errores. El diseño se llevó a cabo en la plataforma FPGA Nano Tang 9k, permitiendo una implementación eficiente y funcional del transmisor. A través de la simulación y pruebas realizadas, se pudo verificar que el sistema es capaz de detectar y corregir errores en la cadena de datos transmitida, cumpliendo con los objetivos planteados al inicio del proyecto. Además, se desarrolló una interfaz de usuario que permite ingresar datos y simular errores, lo que facilita la comprensión del funcionamiento del código Hamming y su aplicación en sistemas digitales. Este proyecto no solo demuestra la importancia de la corrección de errores en la transmisión de datos, sino también la capacidad de las FPGAs para implementar soluciones digitales complejas de manera efectiva.
----
