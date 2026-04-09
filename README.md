@@ -43,10 +43,8 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 - `README.md`, Descripción general del proyecto
 - `docs`, Especificaciones, esquemas, hojas de datos, imagenes, simulaciones, etc.
 - `wiki`, Explicación detallada "Tutorial"
-
-
-
-- `src/build`, para compilación y archivos generados,
+- `src`, Código fuente del proyecto, organizado en dispositivo y módulos
+>> /build`, para compilación y archivos generados,
 - `src/constr`, para constraints,
 - `src/design`, para módulos del transmisor y receptor,
 - `src/sim`, para archivos de simulación.
