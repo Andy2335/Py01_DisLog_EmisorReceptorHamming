@@ -2,8 +2,8 @@
 
 ## Escuela de Ingeniería Electrónica
 **Curso:** EL-3307 Diseño Lógico 
-**Profesor:** Oscar Caravaca 
-**Semestre:** I Semestre 2026  
+    **Profesor:** Oscar Caravaca 
+    **Semestre:** I Semestre 2026  
 
 --- 
 ## Integrantes
