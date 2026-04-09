@@ -39,7 +39,7 @@ module top (
     // Instancia del codificador Hamming(7,4)
     // --------------------------------------------------------
     hamming74_encoder U1 (
-        .data_in  (sw),
+        .data_in  (data_in),
         .code_out (code_out)
     );
 
@@ -49,7 +49,7 @@ module top (
     error_inserter U2 (
         .BitError    (BitError),
         .WordHamming (code_out),
-        .transmision (Transf)
+        .transmision (transmision)
     );
     
 
