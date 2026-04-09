@@ -59,7 +59,7 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 - Transmisor - Diagrama de bloques y circuito lógico
 
     ### Diagrama de bloques:
-    <img src="" width="700">
+    <img src="https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/blob/ebff8504741258c4819ed9ba633571e7adfb919f/doc/imagenes/Diagrama%20Bloques%20Emisor.jpg" width="700">
 
 
   - Módulo 5.1 - Paridad Par Hamming (7,4) 
