@@ -1,8 +1,10 @@
 # Proyecto corto I – Diseño digital combinacional en dispositivos programables
 
 ## Escuela de Ingeniería Electrónica
-**Curso:** EL-3307 Diseño Lógico \
-**Profesor:** Oscar Caravaca \
+**Curso:** EL-3307 Diseño Lógico
+
+**Profesor:** Oscar Caravaca
+
 **Semestre:** I Semestre 2026  
 
 --- 
