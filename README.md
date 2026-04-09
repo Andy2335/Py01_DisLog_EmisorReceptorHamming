@@ -38,45 +38,37 @@ Implementar un sistema digital que permita la visualización, simulación de err
 
 En este proyecto se abordará el diseño e implementación de un sistema digital de emisión y transmisión de datos con la implementación de el algoritmo Hamming (7,4) para la recuperación de datos y identificación de errores. Utilizando como plataforma de desarrollo la tarjeta FPGA Nano Tanq 9k. Este sistema se compone de dos dispositivos un *Transmisor* y un *Receptor*. En este repositorio se desarrollará el dispositivo transmisor, en donde el usuario podrá ingresar una palabra de 4 bits a través de un selector, la cual será codificada utilizando el código Hamming (7,4), para luego simular mediante otro selector el caso de un error en uno de los bits para luego transmitir esta cadena a través de un bus de 7 bits al receptor. 
 
+[** Wiki ** ](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Home-%E2%80%90-Transmisor-con-algoritmo-Hamming)
 
 ## Estructura de la documentación
 - `README.md`, Descripción general del proyecto
 - `docs`, Especificaciones, esquemas, hojas de datos, imagenes, simulaciones, etc.
 - `wiki`, Explicación detallada "Tutorial"
 - `src`, Código fuente del proyecto, organizado en dispositivo y módulos
->> /build`, para compilación y archivos generados,
-- `src/constr`, para constraints,
-- `src/design`, para módulos del transmisor y receptor,
-- `src/sim`, para archivos de simulación.
+- `build`, Makerfile, scripts de compilación, archivos de configuración, etc.
+- `constr`, Constraints - Definición de pines.
+- `design`, Implementación lógica programada y funciones.
+- `sim`, Testbenches y archivos de simulación.
 
-## Jerarquía de módulos
-## Módulo 5.1 - Paridad Par Hamming (7,4)
-> Parametros
-> Entradas
-> Salidas
-> Descripción
-## Módulo 5.2 - Visualización hexadecimal en 7 segmentos - Decodificador
-> Parametros
-> Entradas
-> Salidas
-> Descripción
-## Módulo 5.3 - Simulación de errores en la transmisión
-> Parametros
-> Entradas
-> Salidas
-> Descripción
-## Periféricos - Selectores y 7 segmentos
-> Descripción de los periféricos utilizados en el proyecto, su conexión y función dentro del sistema.
+## Jerarquía del dispositivo transmisor
+
+- Transmisor
+  - Módulo 5.1 - Paridad Par Hamming (7,4)
+
+  - Módulo 5.2 - Visualización hexadecimal en 7 segmentos - Decodificador
+
+  - Módulo 5.3 - Simulación de errores en la transmisión
+
+  - Periféricos - Selectores y 7 segmentos
+
+
+
 ## Integración del transmisor
 > Pines
 > Diagrama de bloques del transmisor
 > Circuito lógico del transmisor
 > Código HDL del transmisor
 > Testbench del transmisor
-
-
-
-
 
 
 
