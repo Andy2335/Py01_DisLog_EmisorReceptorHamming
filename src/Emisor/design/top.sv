@@ -25,12 +25,27 @@ module top (
     // Instancia del decodificador a 7 segmentos
     // Aquí se muestra el dato original de 4 bits
     // --------------------------------------------------------
+
+    bin_to_7seg U3 (
+    .sw(data_in),
+    .segments(seg)
+    );
+
+    /*
     bin_to_7seg #(
         .COMMON_ANODE(1'b0)
     ) U3 (
         .bin_in (data_in),
         .seg    (seg)
     );
+*/
+
+
+
+
+
+
+
 
     // --------------------------------------------------------
     // Instancia del codificador Hamming(7,4)
@@ -175,12 +190,17 @@ module error_inserter (
     always @(*) begin
         transmision = WordHamming; // Copiar la palabra Hamming a la transmision inicialmente correcta
 
+        if (BitError >= 1 && BitError <= 7)
+            transmision[BitError-1] = ~WordHamming[BitError-1];
+
+/*
         if (BitError < 7)
             // Inversión de un bit especifico en transmision según el valor de BitError
             transmision[BitError-1] = ~WordHamming[BitError-1];
         else
             // Si BitError es 7 o mayor, no se introduce ningún error (transmision ya es igual a WordHamming)
             transmision = WordHamming;
+*/
     end
 
 endmodule

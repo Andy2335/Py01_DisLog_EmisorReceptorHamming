@@ -34,8 +34,8 @@ Successfully finished Verilog frontend.
 
 2. Executing SYNTH_GOWIN pass.
 
-2.1. Executing Verilog-2005 frontend: C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v
-Parsing Verilog input from `C:\Users\andre\OneDrive\ESCRIT~1\PROGRA~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v' to AST representation.
+2.1. Executing Verilog-2005 frontend: C:\Users\mrnso\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v
+Parsing Verilog input from `C:\Users\mrnso\DOWNLO~1\DISENO~1\OSS-CA~1\bin\../share/yosys/gowin/cells_sim.v' to AST representation.
 Generating RTLIL representation for module `\LUT1'.
 Generating RTLIL representation for module `\LUT2'.
 Generating RTLIL representation for module `\LUT3'.
