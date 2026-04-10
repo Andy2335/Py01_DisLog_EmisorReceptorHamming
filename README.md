@@ -58,7 +58,7 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
 - Transmisor - Diagrama de bloques y circuito lógico
 
-    ### Diagrama de bloques:
+    ### Módulos del Transmisor:
     <img src="https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/blob/ebff8504741258c4819ed9ba633571e7adfb919f/doc/imagenes/Diagrama%20Bloques%20Emisor.jpg" width="700">
 
     ### Circuito lógico:
@@ -99,15 +99,12 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
     El testbench se utilizó para verificar automáticamente el funcionamiento del código Hamming (7,4), evaluando diferentes combinaciones de entrada y posibles errores. A través de la simulación, se comprobó que las salidas coinciden con los valores esperados. Las formas de onda permitieron visualizar el comportamiento del sistema en el tiempo, confirmando que el código se genera correctamente y que la inserción de errores afecta únicamente un bit.
 
-## Diagrama de
+## Diagrama de Bloques:
 
+    El diagrama muestra la estructura funcional del módulo principal del sistema emisor. El dato de entrada de 4 bits es procesado por el codificador, el cual genera una palabra codificada de 7 bits, luego, esta señal es enviada al módulo de inserción de error, donde se puede alterar un bit según el valor de BitError, dando la señal final del transmisor. El dato original también es enviado al decodificador de 7 segmentos para su visualización en el display.
 
-
-
-
-
-  <a href="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Captura%20de%20pantalla%202026-04-09%20223112.png">
-  <img src="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Captura%20de%20pantalla%202026-04-09%20223112.png" width="700">
+  <a href="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Diagrama.png">
+  <img src="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Diagrama.png" width="700">
 </a>
 
 ## Resultados
