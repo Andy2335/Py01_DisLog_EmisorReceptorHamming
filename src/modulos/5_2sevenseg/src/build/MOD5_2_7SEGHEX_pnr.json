@@ -44,11 +44,11 @@
       "ports": {
         "sw": {
           "direction": "input",
-          "bits": [ 3877474, 437214096, 437212896, 3877465 ]
+          "bits": [ 440125760, 607905328, 440127152, 440127152 ]
         },
         "segments": {
           "direction": "output",
-          "bits": [ 437212560, 3877501, 437705024, 437701104, 437212896, 437214288, 437701104 ]
+          "bits": [ 3877503, 440126096, 3877499, 436616816, 607906768, 440124704, 3877491 ]
         }
       },
       "cells": {
@@ -64,7 +64,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R2C11_SLICE0",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\andre\\OneDrive\\ESCRIT~1\\PROGRA~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+            "src": "C:\\Users\\mrnso\\DOWNLO~1\\DISENO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
           },
           "port_directions": {
             "LSR": "input",
@@ -101,7 +101,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R2C11_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\andre\\OneDrive\\ESCRIT~1\\PROGRA~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+            "src": "C:\\Users\\mrnso\\DOWNLO~1\\DISENO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
           },
           "port_directions": {
             "LSR": "input",
@@ -138,7 +138,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R3C10_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\andre\\OneDrive\\ESCRIT~1\\PROGRA~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+            "src": "C:\\Users\\mrnso\\DOWNLO~1\\DISENO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
           },
           "port_directions": {
             "LSR": "input",
@@ -175,7 +175,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R2C10_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\andre\\OneDrive\\ESCRIT~1\\PROGRA~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+            "src": "C:\\Users\\mrnso\\DOWNLO~1\\DISENO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
           },
           "port_directions": {
             "LSR": "input",
@@ -212,7 +212,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R2C11_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\andre\\OneDrive\\ESCRIT~1\\PROGRA~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+            "src": "C:\\Users\\mrnso\\DOWNLO~1\\DISENO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
           },
           "port_directions": {
             "LSR": "input",
@@ -249,7 +249,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R2C11_SLICE1",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\andre\\OneDrive\\ESCRIT~1\\PROGRA~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+            "src": "C:\\Users\\mrnso\\DOWNLO~1\\DISENO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
           },
           "port_directions": {
             "LSR": "input",
@@ -286,7 +286,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R2C10_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "C:\\Users\\andre\\OneDrive\\ESCRIT~1\\PROGRA~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
+            "src": "C:\\Users\\mrnso\\DOWNLO~1\\DISENO~1\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:147.23-148.48"
           },
           "port_directions": {
             "LSR": "input",
