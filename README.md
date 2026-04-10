@@ -101,7 +101,7 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
 ## Diagrama de Bloques:
 
-El diagrama muestra la estructura funcional del módulo principal del sistema emisor. El dato de entrada de 4 bits es procesado por el codificador, el cual genera una palabra codificada de 7 bits, luego, esta señal es enviada al módulo de inserción de error, donde se puede alterar un bit según el valor de BitError, dando la señal final del transmisor. El dato original también es enviado al decodificador de 7 segmentos para su visualización en el display.
+El diagrama muestra la estructura funcional del módulo principal del sistema emisor. El dato de entrada de 4 bits es procesado por el codificador, el cual genera una palabra codificada de 7 bits, luego, esta señal es enviada al módulo de inserción de error, donde se puede alterar un bit según el valor de BitError, dando los bits finales del transmisor para que estos pasen al receptor. El dato original también es enviado al decodificador de 7 segmentos para su visualización en el display.
 
   <a href="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Diagrama.png">
   <img src="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Diagrama.png" width="700">
