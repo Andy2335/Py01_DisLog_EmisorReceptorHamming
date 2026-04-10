@@ -48,7 +48,7 @@ Info:     at iteration #1, type SLICE: wirelen solved = 128, spread = 134, legal
 Info:     at iteration #1, type VCC: wirelen solved = 152, spread = 152, legal = 152; time = 0.00s
 Info:     at iteration #1, type GSR: wirelen solved = 152, spread = 152, legal = 152; time = 0.00s
 Info:     at iteration #1, type ALL: wirelen solved = 129, spread = 142, legal = 146; time = 0.00s
-Info: HeAP Placer Time: 0.01s
+Info: HeAP Placer Time: 0.02s
 Info:   of which solving equations: 0.00s
 Info:   of which spreading cells: 0.00s
 Info:   of which strict legalisation: 0.00s
@@ -57,7 +57,7 @@ Info: Running simulated annealing placer for refinement.
 Info:   at iteration #1: temp = 0.000000, timing cost = 0, wirelen = 146
 Info:   at iteration #5: temp = 0.000000, timing cost = 0, wirelen = 130
 Info:   at iteration #6: temp = 0.000000, timing cost = 0, wirelen = 130 
-Info: SA placement time 0.01s
+Info: SA placement time 0.00s
 
 Info: Max delay <async> -> <async>: 15.50 ns
 
@@ -93,9 +93,9 @@ Info: Setting up routing queue.
 Info: Routing 36 arcs.
 Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
 Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
-Info:         36 |        0         36 |    0    36 |         0|       0.06       0.06|
+Info:         36 |        0         36 |    0    36 |         0|       0.05       0.05|
 Info: Routing complete.
-Info: Router1 time 0.06s
+Info: Router1 time 0.05s
 Info: Checksum: 0x182bbfe1
 
 Info: Critical path report for cross-domain path '<async>' -> '<async>':
