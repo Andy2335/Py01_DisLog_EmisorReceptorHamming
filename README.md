@@ -101,7 +101,12 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 - Se logró construir un testbench para verificar el correcto funcionamiento del sistema.
 - Se implementó el algoritmo Hamming (7,4) para la corrección de errores en la transmisión de datos.
 - Se visualizó los retrasos en la señal y forma de onda utilizando GTKWave y en las compuertas lógicas.
-- Se coordinó el diseño del proyecto con el equipo de trabajo, asignando tareas y responsabilidades y utilizando una herramienta de control de versiones (Git) para mantener un seguimiento del progreso y cambios realizados en el proyecto. Además de documentar el proceso de desarrollo y los resultados obtenidos en un repositorio de GitHub, facilitando la colaboración y el acceso a la información del proyecto para todos los miembros del equipo.
+- Se coordinó el diseño del proyecto con el equipo de trabajo.
+- Se documentó y se desarrollo el proyecto utilizando herramientas de control de versiones y documentación colaborativa. (Git y GitHub).
+
+## Mejora en el sistema "Diseño Extra"
+
+
 
 
 ## Conclusion
