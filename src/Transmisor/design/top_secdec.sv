@@ -56,7 +56,7 @@ module hamming84_encoder (
         code_out[1] = data_in[1];
         code_out[0] = data_in[0];
 
-        p8 = ^code_out[6:0];
+        p8 = ^code_out[6:0]; // XOR de todos los bits
         code_out[7] = p8;
     end
 
