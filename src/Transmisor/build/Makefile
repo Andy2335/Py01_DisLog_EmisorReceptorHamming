@@ -68,5 +68,11 @@ wv: ${VCD_FILE}
 load: ${PROYECT}_${BOARD}.fs
 	openFPGALoader -b ${BOARD} ${PROYECT}_${BOARD}.fs 
 
+clean:
+	@echo "Limpiando archivos temporales..."
+	-del /Q *.json *.log *.o *.out *.fs *.vcd 2>nul
+	-del /Q *_pnr.json *_test.o 2>nul
+	@echo "Limpieza completada"
+
 .PHONY: load  wv
 .INTERMEDIATE: ${PROYECT}_pnr.json ${PROYECT}.json
