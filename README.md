@@ -66,8 +66,8 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
     ### Visualización de Señales:
     <a href="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Captura%20de%20pantalla%202026-04-09%20223112.png">
-  <img src="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Captura%20de%20pantalla%202026-04-09%20223112.png" width="700">
-</a>
+    <img src="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Captura%20de%20pantalla%202026-04-09%20223112.png" width="700">
+    </a>
 
   - Módulo 5.1 - Paridad Par Hamming (7,4) 
   [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Modulo-5.1-%E2%80%90-M%C3%B3dulo-de-Codificaci%C3%B3n-Paridad-Par)
@@ -117,9 +117,14 @@ El diagrama muestra la estructura funcional del módulo principal del sistema em
 - Se coordinó el diseño del proyecto con el equipo de trabajo.
 - Se documentó y se desarrollo el proyecto utilizando herramientas de control de versiones y documentación colaborativa. (Git y GitHub).
 
+
+
 ## Mejora en el sistema "Diseño Extra"
 
+## Laboratorio construcción de un Oscilador en Anillo
+Para el laboratorio de construcción de un oscilador en anillo se diseñó un circuito utilizando compuertas NOT del integrado 74LS04 (TTL) para crear una señal oscilante. Que puede ser utilizada como señal de reloj para el sistema digital. El circuito se construyó con un número impar de etapas (un osicilador de cinco compuertas NOT y otro de tres) para asegurar la oscilación, y se incluyó un condensador para estabilizar la frecuencia de oscilación y el ruido posible de la fuente de alimentación. La señal generada fue verificada utilizando un osciloscopio, confirmando que el circuito funciona correctamente y produce una señal estable y adecuada para su uso en sistemas digitales. 
 
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Laboratorio-de-Oscilador-en-Anillo)
 
 
 ## Conclusion
