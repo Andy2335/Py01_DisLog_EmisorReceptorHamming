@@ -2,7 +2,7 @@
 // MODULO PRINCIPAL: Emisor con codificador SECDED (8,4)
 // ============================================================
 
-module top (
+module top_secdec (
     input  logic [3:0] sw,
     input  logic [3:0] BitError,
     output logic [7:0] Transf,
