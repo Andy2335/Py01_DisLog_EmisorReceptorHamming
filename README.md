@@ -120,8 +120,7 @@ Para el sistema actual de envió de información, se puede implementar el algori
 
 
 ## Laboratorio construcción de un Oscilador en Anillo 
-  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Laboratorio-de-Oscilador-en-Anillo)
-Para el laboratorio de construcción de un oscilador en anillo se diseñó un circuito utilizando compuertas NOT del integrado 74LS04 (TTL) para crear una señal oscilante. Que puede ser utilizada como señal de reloj para el sistema digital. El circuito se construyó con un número impar de etapas (un osicilador de cinco compuertas NOT y otro de tres) para asegurar la oscilación, y se incluyó un condensador para estabilizar la frecuencia de oscilación y el ruido posible de la fuente de alimentación. La señal generada fue verificada utilizando un osciloscopio, confirmando que el circuito funciona correctamente y produce una señal estable y adecuada para su uso en sistemas digitales. 
+Para el laboratorio de construcción de un oscilador en anillo se diseñó un circuito utilizando compuertas NOT del integrado 74LS04 (TTL) para crear una señal oscilante. Que puede ser utilizada como señal de reloj para el sistema digital. El circuito se construyó con un número impar de etapas (un osicilador de cinco compuertas NOT y otro de tres) para asegurar la oscilación, y se incluyó un condensador para estabilizar la frecuencia de oscilación y el ruido posible de la fuente de alimentación. La señal generada fue verificada utilizando un osciloscopio, confirmando que el circuito funciona correctamente y produce una señal estable y adecuada para su uso en sistemas digitales. [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Laboratorio-de-Oscilador-en-Anillo)
 
 
 ## Conclusion
