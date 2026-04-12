@@ -114,6 +114,10 @@ El diagrama muestra la estructura funcional del módulo principal del sistema em
 
 
 ## Mejora en el sistema "Diseño Extra"
+Para el sistema actual de envió de información, se puede implementar el algoritmo de Hamming extendido (8,4) para mejorar la capacidad de detección y corrección de errores. Este algoritmo añade un bit adicional de paridad global, lo que permite detectar y corregir errores de un solo bit, así como detectar errores de dos bits. Esto aumentaría la robustez del sistema frente a posibles fallos en la transmisión, mejorando la confiabilidad de los datos enviados. [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Mejora-Dise%C3%B1o-%E2%80%90-Hamming-Extendido-SECDED)
+
+
+
 
 ## Laboratorio construcción de un Oscilador en Anillo 
   [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Laboratorio-de-Oscilador-en-Anillo)
