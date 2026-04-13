@@ -69,6 +69,9 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
     <img src="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Captura%20de%20pantalla%202026-04-09%20223112.png" width="700">
     </a>
 
+    ### Montaje del dispositivo:
+    <img src="https://raw.githubusercontent.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/main/doc/imagenes/Montaje%20Emisor.jpg" width="700">
+
   - Módulo 5.1 - Paridad Par Hamming (7,4) 
   [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Modulo-5.1-%E2%80%90-M%C3%B3dulo-de-Codificaci%C3%B3n-Paridad-Par)
 
