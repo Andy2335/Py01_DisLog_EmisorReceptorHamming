@@ -73,7 +73,7 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
     <img src="https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/blob/ed75d05014ae4b4bd7023ea22161bb1d16848676/doc/imagenes/Implementacion1.jpeg" width="700">
 
   - Módulo 5.1 - Paridad Par Hamming (7,4) 
-  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Modulo-5.1-%E2%80%90-M%C3%B3dulo-de-Codificaci%C3%B3n-Paridad-Par)
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/1.-Modulo-5.1-%E2%80%90-M%C3%B3dulo-de-Codificaci%C3%B3n-Paridad-Par)
 
     Se implementa el módulo de codificación utilizando el código Hamming (7,4) para generar la cadena de 7 bits a partir de una palabra de 4 bits ingresada por el usuario. Este módulo se encarga de calcular los bits de paridad necesarios para la detección y corrección de errores, siguiendo las reglas del código Hamming. La salida de este módulo es una cadena de 7 bits que representa la palabra original junto con los bits de paridad, lista para ser transmitida al receptor.
 
@@ -81,20 +81,20 @@ En este proyecto se abordará el diseño e implementación de un sistema digital
 
 
   - Módulo 5.2 - Visualización hexadecimal en 7 segmentos - Decodificador 
-  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/M%C3%B3dulo-5.2-%E2%80%90--M%C3%B3dulo-de-decodificaci%C3%B3n-binario-a-7-segmentos-representaci%C3%B3n-hexadecimal)
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/2.-M%C3%B3dulo-5.2-%E2%80%90--M%C3%B3dulo-de-decodificaci%C3%B3n-binario-a-7-segmentos-representaci%C3%B3n-hexadecimal)
 
     Este módulo se encarga de la visualización de la palabra de 4 bits ingresada por el usuario en un display de 7 segmentos. Para ello, se implementa un decodificador que convierte la representación binaria de la palabra en su equivalente hexadecimal, permitiendo así una visualización clara y comprensible para el usuario. Este módulo facilita la interacción con el sistema, ya que permite verificar visualmente la entrada antes de la codificación y transmisión de los datos.
 
 
 
   - Módulo 5.3 - Simulación de errores en la transmisión 
-  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/M%C3%B3dulo-5.3-%E2%80%90-M%C3%B3dulo-generador-de-error-en-la-codificaci%C3%B3n-Hamming-(7,4))
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/3.-M%C3%B3dulo-5.3-%E2%80%90-M%C3%B3dulo-generador-de-error-en-la-codificaci%C3%B3n-Hamming-(7,4))
 
     En este módulo se implementa la funcionalidad de simular errores en la cadena de datos codificada utilizando el código Hamming (7,4). A través de un selector, el usuario puede elegir simular un error en uno de los bits de la cadena de 7 bits generada por el módulo de codificación. Esto permite probar la capacidad del sistema para detectar y corregir errores, ya que el receptor deberá ser capaz de identificar y corregir el error simulado durante la transmisión. Este módulo es fundamental para validar la efectividad del código Hamming en la corrección de errores en sistemas digitales.
 
 
 - Testbench y Simulación de Ondas
-  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Testbench-y-Simulaci%C3%B3n-de-Ondas-(Transmisor))
+  [wiki](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/4.-Testbench-y-Simulaci%C3%B3n-de-Ondas-(Transmisor))
 
     El testbench se utilizó para verificar automáticamente el funcionamiento del código Hamming (7,4), evaluando diferentes combinaciones de entrada y posibles errores. A través de la simulación, se comprobó que las salidas coinciden con los valores esperados. Las formas de onda permitieron visualizar el comportamiento del sistema en el tiempo, confirmando que el código se genera correctamente y que la inserción de errores afecta únicamente un bit.
 
