@@ -36,7 +36,7 @@
 
 
 ## Objetivo
-Implementar un sistema digital que permita la visualización, simulación de errores en envió de datos, así como su emisión utilizando el código Hamming (7,4), apartir del cual se pueda detectar y corregir errores en la cadena de datos transmitida recibida por el receptor. 
+Implementar un sistema digital que permita la visualización, simulación de errores en envio de datos, así como su emisión utilizando el código Hamming (7,4), apartir del cual se pueda detectar y corregir errores en la cadena de datos transmitida recibida por el receptor. 
 
 # Descripción general del sistema
 
