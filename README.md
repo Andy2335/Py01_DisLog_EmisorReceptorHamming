@@ -42,7 +42,7 @@ Implementar un sistema digital que permita la visualización, simulación de err
 
 En este proyecto se abordará el diseño e implementación de un sistema digital de emisión y transmisión de datos con la implementación de el algoritmo Hamming (7,4) para la recuperación de datos y identificación de errores. Utilizando como plataforma de desarrollo la tarjeta FPGA Nano Tanq 9k. Este sistema se compone de dos dispositivos un *Transmisor* y un *Receptor*. En este repositorio se desarrollará el dispositivo transmisor, en donde el usuario podrá ingresar una palabra de 4 bits a través de un selector, la cual será codificada utilizando el código Hamming (7,4), para luego simular mediante otro selector el caso de un error en uno de los bits para luego transmitir esta cadena a través de un bus de 7 bits al receptor. 
 
-[** Wiki ** ](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki/Home-%E2%80%90-Transmisor-con-algoritmo-Hamming)
+[** Wiki ** ](https://github.com/Andy2335/Py01_DisLog_EmisorReceptorHamming/wiki)
 
 ## Estructura de la documentación
 - `README.md`, Descripción general del proyecto
